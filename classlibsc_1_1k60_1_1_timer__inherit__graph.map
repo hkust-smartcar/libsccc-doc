@@ -1,0 +1,4 @@
+<map id="libsc::k60::Timer" name="libsc::k60::Timer">
+<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_pit_timer.xhtml" title="libsc::k60::PitTimer" alt="" coords="5,81,159,109"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_sys_tick_timer.xhtml" title="libsc::k60::SysTickTimer" alt="" coords="183,81,368,109"/>
+</map>

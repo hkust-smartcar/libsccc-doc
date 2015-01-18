@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml" title="libbase::k60::Pwm::\lConfig" alt="" coords="5,40,161,84"/>
+<area shape="rect" id="node2" href="$structlibbase_1_1k60_1_1_ftm_pwm_1_1_config.xhtml" title="libbase::k60::FtmPwm\l::Config" alt="" coords="209,5,384,49"/>
+<area shape="rect" id="node3" href="$structlibbase_1_1k60_1_1_soft_pwm_1_1_config.xhtml" title="libbase::k60::SoftPwm\l::Config" alt="" coords="209,73,384,117"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classlibbase_1_1k60_1_1_pwm.xhtml" title="libbase::k60::Pwm" alt="" coords="5,32,153,60"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1k60_1_1_ftm_pwm.xhtml" title="libbase::k60::FtmPwm" alt="" coords="201,5,376,33"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1k60_1_1_soft_pwm.xhtml" title="Generate PWM signal using PIT and GPIO, only guarantee precision down to us level. " alt="" coords="201,57,376,85"/>
+</map>
