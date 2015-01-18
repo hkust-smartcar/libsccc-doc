@@ -118,6 +118,7 @@ Data Fields</h2></td></tr>
 <tr class="memitem:ab04fb2752b86c55aa1711d24c5d95f58"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58">pos_width</a></td></tr>
 <tr class="separator:ab04fb2752b86c55aa1711d24c5d95f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ab70cdd6d7198d58f8a9aa23693a98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a782ba6c139c0efd00869622933e68ddf">Precision</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a97ab70cdd6d7198d58f8a9aa23693a98">precision</a> = <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a782ba6c139c0efd00869622933e68ddfa627adf14e9c62de10c18609cdadf7ffb">Precision::kUs</a></td></tr>
+<tr class="memdesc:a97ab70cdd6d7198d58f8a9aa23693a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the unit of <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ac1dc706a277bca9fecc7d1e6476bce41">Config::period</a> and <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58">Config::pos_width</a>.  <a href="#a97ab70cdd6d7198d58f8a9aa23693a98">More...</a><br /></td></tr>
 <tr class="separator:a97ab70cdd6d7198d58f8a9aa23693a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -194,12 +195,16 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the unit of <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ac1dc706a277bca9fecc7d1e6476bce41">Config::period</a> and <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58">Config::pos_width</a>. </p>
+<p>It is useful when the period is too small such that the precision is not high enough. Otherwise, the default should be kept</p>
+<dl class="section note"><dt>Note</dt><dd>Should only select <a class="el" href="structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a782ba6c139c0efd00869622933e68ddfafe9daf9eb20b3541993dac27f47408c6">Precision::kNs</a> when period &lt; 1000 us. Otherwise integer overflow may occur during some calculations </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 18 2015 19:29:36 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jan 18 2015 20:10:43 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
