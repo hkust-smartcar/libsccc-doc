@@ -5,6 +5,7 @@ var searchData=
   ['_7ecrc',['~Crc',['../classlibbase_1_1k60_1_1_crc.xhtml#ad902d0855578a928849e1258c4a4d91a',1,'libbase::k60::Crc']]],
   ['_7edac',['~Dac',['../classlibbase_1_1k60_1_1_dac.xhtml#a0cf36f572812c2f3de34781cb325899d',1,'libbase::k60::Dac']]],
   ['_7edelay',['~Delay',['../classlibsc_1_1k60_1_1_delay.xhtml#a5ea07f000d82530c038865d5a2f72dcf',1,'libsc::k60::Delay']]],
+  ['_7edma',['~Dma',['../classlibbase_1_1k60_1_1_dma.xhtml#aae7614bd333e322d72628f7692da5f45',1,'libbase::k60::Dma']]],
   ['_7edynamicblockbuffer',['~DynamicBlockBuffer',['../classlibutil_1_1_dynamic_block_buffer.xhtml#a2b601eb9a0619005c223b1deddfeb56f',1,'libutil::DynamicBlockBuffer']]],
   ['_7eftmpwm',['~FtmPwm',['../classlibbase_1_1k60_1_1_ftm_pwm.xhtml#abfcdddc4f107d242de39647eb742b8f0',1,'libbase::k60::FtmPwm']]],
   ['_7eftmquaddecoder',['~FtmQuadDecoder',['../classlibbase_1_1k60_1_1_ftm_quad_decoder.xhtml#aa5818daa40bf7bef3179c70b62727d28',1,'libbase::k60::FtmQuadDecoder']]],

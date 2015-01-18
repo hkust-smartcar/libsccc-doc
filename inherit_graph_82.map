@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibsc_1_1k60_1_1_simple_buzzer_1_1_config.xhtml" title="libsc::k60::SimpleBuzzer\l::Config" alt="" coords="5,5,195,49"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1k60_1_1_motor.xhtml" title="libsc::k60::Motor" alt="" coords="5,32,144,60"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_alternate_motor.xhtml" title="libsc::k60::AlternateMotor" alt="" coords="192,5,393,33"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_dir_motor.xhtml" title="libsc::k60::DirMotor" alt="" coords="213,57,372,85"/>
 </map>

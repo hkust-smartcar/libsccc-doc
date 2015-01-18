@@ -150,7 +150,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classlibsc_1_1k60_1_1_infra_red_sensor.xhtml#ad1ed2e422f60f8fc5e513620e9c4cf41">libsc::k60::InfraRedSensor</a>
 </li>
 <li>Init()
-: <a class="el" href="classlibbase_1_1k60_1_1_fpu.xhtml#ab322a1a0d7890a89173531257fff179c">libbase::k60::Fpu</a>
+: <a class="el" href="classlibbase_1_1k60_1_1_dma_manager.xhtml#a2c6bed988077be862b09d40190ebd154">libbase::k60::DmaManager</a>
+, <a class="el" href="classlibbase_1_1k60_1_1_fpu.xhtml#ab322a1a0d7890a89173531257fff179c">libbase::k60::Fpu</a>
 , <a class="el" href="classlibbase_1_1k60_1_1_mcg.xhtml#af24aa2a898cdfa200b480a78781ac92b">libbase::k60::Mcg</a>
 , <a class="el" href="classlibsc_1_1k60_1_1_system.xhtml#a3f62d588f9c3f98e255aedeb73f57975">libsc::k60::System</a>
 </li>
@@ -166,12 +167,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>interrupt
 : <a class="el" href="structlibbase_1_1k60_1_1_gpi_1_1_config.xhtml#ac6199b08fd9ef5588957735baa2f7a21">libbase::k60::Gpi::Config</a>
+, <a class="el" href="structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#a202462c2810221a624bcf127599e7f56">libbase::k60::Pin::Config</a>
 </li>
 <li>Interrupt
 : <a class="el" href="structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#a1a9c2dfd95b32b795846357ae4ac3706">libbase::k60::Pin::Config</a>
 </li>
-<li>interrupt
-: <a class="el" href="structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#a202462c2810221a624bcf127599e7f56">libbase::k60::Pin::Config</a>
+<li>IrqHandler()
+: <a class="el" href="classlibbase_1_1k60_1_1_dma.xhtml#a5fb892510642abab60ba85b15a9d1855">libbase::k60::Dma</a>
 </li>
 <li>is_active_high
 : <a class="el" href="structlibbase_1_1k60_1_1_ftm_pwm_1_1_config.xhtml#ac711dfde480c6b643be6b11a79611e2b">libbase::k60::FtmPwm::Config</a>
@@ -186,6 +188,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>is_allow_update
 : <a class="el" href="structlibbase_1_1k60_1_1_watchdog_1_1_config.xhtml#af90a3ece4abbac57a3a23e035499c7b2">libbase::k60::Watchdog::Config</a>
 </li>
+<li>is_channel_preemption
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_manager_1_1_config_1_1_channel_priority_config.xhtml#a9468497efcc0f5df345348d7c07c65c1">libbase::k60::DmaManager::Config::ChannelPriorityConfig</a>
+</li>
 <li>is_continuous_mode
 : <a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a8a3e7dc4273327bc053060e32c3aed8b">libbase::k60::Adc::Config</a>
 </li>
@@ -195,10 +200,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>is_diff_mode
 : <a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a5463aa60152f7af049b621798c22f939">libbase::k60::Adc::Config</a>
 </li>
+<li>is_disable_request
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config.xhtml#ac2fce32f7ab29b6b2dc58277c1b91098">libbase::k60::Dma::Config</a>
+</li>
 <li>is_enable
 : <a class="el" href="structlibbase_1_1k60_1_1_pit_1_1_config.xhtml#a71ac159ba389acee3b04e7bf5b25272f">libbase::k60::Pit::Config</a>
 , <a class="el" href="structlibbase_1_1k60_1_1_sys_tick_1_1_config.xhtml#ae72a1134ca90647c7d027f8f888ea354">libbase::k60::SysTick::Config</a>
 , <a class="el" href="structlibbase_1_1k60_1_1_watchdog_1_1_config.xhtml#ab031c6473e3ccd76ef32cfa5b7320891">libbase::k60::Watchdog::Config</a>
+</li>
+<li>is_enable_dst_offset
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config_1_1_minor_loop_config.xhtml#aab91fdd3179bfe39c5ab56b7aeea23c9">libbase::k60::Dma::Config::MinorLoopConfig</a>
+</li>
+<li>is_enable_src_offset
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config_1_1_minor_loop_config.xhtml#a3e1a7f8d87f9d3105c7036d03a44294d">libbase::k60::Dma::Config::MinorLoopConfig</a>
+</li>
+<li>is_error_irq
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_manager_1_1_config.xhtml#a364a39bd3fe2704a4d3b248948e0eb56">libbase::k60::DmaManager::Config</a>
 </li>
 <li>is_ext_entropy
 : <a class="el" href="structlibbase_1_1k60_1_1_rand_generator_1_1_config.xhtml#a00d6f1746489fd901a07997d3a28c31b">libbase::k60::RandGenerator::Config</a>
@@ -218,6 +235,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>is_invert_b_polarity
 : <a class="el" href="structlibbase_1_1k60_1_1_quad_decoder_interface_1_1_config.xhtml#ac416dd8bfa3d0f9f8284a7c1161a525d">libbase::k60::QuadDecoderInterface::Config</a>
 </li>
+<li>is_listen_half_complete
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config.xhtml#acd69daed12cd561842b7229da63fc8b7">libbase::k60::Dma::Config</a>
+</li>
 <li>is_mem_owned
 : <a class="el" href="structlibutil_1_1_dynamic_block_buffer_1_1_block.xhtml#ae0cac0dafa223d9faa51d61a3b600009">libutil::DynamicBlockBuffer::Block</a>
 </li>
@@ -226,6 +246,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>is_msb_firt
 : <a class="el" href="structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#ae027a1d9b4a8879ae431e12cde63c73c">libbase::k60::SpiMaster::Config</a>
+</li>
+<li>is_preempt_low_channel
+: <a class="el" href="structlibbase_1_1k60_1_1_dma_manager_1_1_config_1_1_channel_priority_config.xhtml#a440be9d5e2983ac438b7d70428b1b38d">libbase::k60::DmaManager::Config::ChannelPriorityConfig</a>
 </li>
 <li>is_revert
 : <a class="el" href="structlibsc_1_1k60_1_1_st7735r_1_1_config.xhtml#a82e4368731e3665b65ffbcf037b6c9b1">libsc::k60::St7735r::Config</a>
@@ -245,6 +268,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>IsActive()
 : <a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml#a1487ca0d29b22be366da8b1b0f3b5a56">libbase::k60::Adc</a>
+, <a class="el" href="classlibbase_1_1k60_1_1_dma.xhtml#ac82fdf1fee12738dec3c53e35877ea91">libbase::k60::Dma</a>
 </li>
 <li>IsBright()
 : <a class="el" href="classlibsc_1_1k60_1_1_light_sensor.xhtml#ae9f294194991f948d62399bd3e028dba">libsc::k60::LightSensor</a>
@@ -258,6 +282,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>IsDetected()
 : <a class="el" href="classlibsc_1_1k60_1_1_infra_red_sensor.xhtml#a2792afa7f00a7b3d7df9f47a8d72d06a">libsc::k60::InfraRedSensor</a>
 </li>
+<li>IsDone()
+: <a class="el" href="classlibbase_1_1k60_1_1_dma.xhtml#a168b5fd40eaaf3f8cdd22b8569d9a198">libbase::k60::Dma</a>
+</li>
 <li>IsDown()
 : <a class="el" href="classlibsc_1_1k60_1_1_button.xhtml#afad52b53fc9915b8fd98089d7a27b42e">libsc::k60::Button</a>
 </li>
@@ -268,6 +295,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="classlibbase_1_1k60_1_1_pin.xhtml#acd4e1d02890cc2e34a9e96daafc73341">libbase::k60::Pin</a>
 , <a class="el" href="classlibbase_1_1k60_1_1_pit.xhtml#a7fe62b79ce5580225265eac968265087">libbase::k60::Pit</a>
 , <a class="el" href="classlibbase_1_1k60_1_1_sys_tick.xhtml#a9edfac57c53ec86b37df506fd113d098">libbase::k60::SysTick</a>
+</li>
+<li>IsMinorLoopMapping()
+: <a class="el" href="classlibbase_1_1k60_1_1_dma_manager.xhtml#a3771f7d05f35d60c86b51940a44c3913">libbase::k60::DmaManager</a>
 </li>
 <li>IsOff()
 : <a class="el" href="classlibsc_1_1k60_1_1_switch.xhtml#a1d6c2a3df15a34d1d8b9bc6f9a5e8195">libsc::k60::Switch</a>
@@ -297,7 +327,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 18 2015 20:10:43 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jan 18 2015 22:13:20 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

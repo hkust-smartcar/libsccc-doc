@@ -6,5 +6,6 @@ var searchData=
   ['pit_5fchannel',['pit_channel',['../structlibbase_1_1k60_1_1_soft_pwm_1_1_config.xhtml#a24b2e7c62b093cab92c0f113114fe626',1,'libbase::k60::SoftPwm::Config']]],
   ['polynomial',['polynomial',['../structlibbase_1_1k60_1_1_crc_1_1_config.xhtml#a6e596dfa2635073363176a2c5d1a2d4d',1,'libbase::k60::Crc::Config']]],
   ['pos_5fwidth',['pos_width',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58',1,'libbase::k60::Pwm::Config']]],
-  ['precision',['precision',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a97ab70cdd6d7198d58f8a9aa23693a98',1,'libbase::k60::Pwm::Config']]]
+  ['precision',['precision',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a97ab70cdd6d7198d58f8a9aa23693a98',1,'libbase::k60::Pwm::Config']]],
+  ['priority',['priority',['../structlibbase_1_1k60_1_1_dma_manager_1_1_config_1_1_channel_priority_config.xhtml#a8f1480ec269d1eb39e3a26ff372d63a9',1,'libbase::k60::DmaManager::Config::ChannelPriorityConfig']]]
 ];
