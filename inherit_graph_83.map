@@ -1,5 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibsc_1_1k60_1_1_motor_1_1_config.xhtml" title="libsc::k60::Motor::\lConfig" alt="" coords="5,40,152,84"/>
-<area shape="rect" id="node2" href="$structlibsc_1_1k60_1_1_alternate_motor_1_1_config.xhtml" title="libsc::k60::AlternateMotor\l::Config" alt="" coords="200,5,401,49"/>
-<area shape="rect" id="node3" href="$structlibsc_1_1k60_1_1_dir_motor_1_1_config.xhtml" title="libsc::k60::DirMotor\l::Config" alt="" coords="221,73,380,117"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1k60_1_1_servo.xhtml" title="libsc::k60::Servo" alt="" coords="5,57,140,85"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_futaba_s3010.xhtml" title="libsc::k60::FutabaS3010" alt="" coords="200,5,387,33"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_tower_pro_mg995.xhtml" title="libsc::k60::TowerProMg995" alt="" coords="188,57,399,85"/>
+<area shape="rect" id="node4" href="$classlibsc_1_1k60_1_1_trs_d05.xhtml" title="libsc::k60::TrsD05" alt="" coords="221,109,366,137"/>
 </map>

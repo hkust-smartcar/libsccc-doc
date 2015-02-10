@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">fauxstess cupcake r0</span>
+   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Data Fields</a>  </div>
   <div class="headertitle">
 <div class="title">libsc::k60::Button::Config Struct Reference</div>  </div>
@@ -95,13 +96,58 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p><code>#include &lt;button.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a284d4770f56ffc0738cf65cc4138328d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328d">Trigger</a> { <a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328da3bc2ec3237c6d119b0b5c4225122a07e">Trigger::kDown</a>, 
+<a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328da8a9e8c8811f2a710615e133456229ee5">Trigger::kUp</a>, 
+<a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328da4f968049bc5e5f7c6e0d89946366fff2">Trigger::kBoth</a>
+ }</td></tr>
+<tr class="separator:a284d4770f56ffc0738cf65cc4138328d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:a5b81b1e237588fb7255e08776c8e46c1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a5b81b1e237588fb7255e08776c8e46c1">id</a></td></tr>
 <tr class="separator:a5b81b1e237588fb7255e08776c8e46c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b2989051d86f882e5825b9ee8eee3b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a5b2989051d86f882e5825b9ee8eee3b3">is_active_low</a></td></tr>
 <tr class="separator:a5b2989051d86f882e5825b9ee8eee3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac78e3ede7c6b450d1b2989466d84c76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#aac78e3ede7c6b450d1b2989466d84c76">is_use_pull_resistor</a> = false</td></tr>
+<tr class="memdesc:aac78e3ede7c6b450d1b2989466d84c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, the internal resistor will be used to hold the pin deserted.  <a href="#aac78e3ede7c6b450d1b2989466d84c76">More...</a><br /></td></tr>
+<tr class="separator:aac78e3ede7c6b450d1b2989466d84c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1f13d98b6a85300c680e7774b870577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlibsc_1_1k60_1_1_button.xhtml#a75af4a32d8cf503c8375baa9de9a3aba">Listener</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#af1f13d98b6a85300c680e7774b870577">listener</a></td></tr>
+<tr class="separator:af1f13d98b6a85300c680e7774b870577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac18bd4e42f80fbfa5bae07cfda961f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328d">Trigger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#ac18bd4e42f80fbfa5bae07cfda961f0e">listener_trigger</a></td></tr>
+<tr class="memdesc:ac18bd4e42f80fbfa5bae07cfda961f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">When to trigger the listener, ignored if <em>listener</em> is not set.  <a href="#ac18bd4e42f80fbfa5bae07cfda961f0e">More...</a><br /></td></tr>
+<tr class="separator:ac18bd4e42f80fbfa5bae07cfda961f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a284d4770f56ffc0738cf65cc4138328d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328d">libsc::k60::Button::Config::Trigger</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a284d4770f56ffc0738cf65cc4138328da3bc2ec3237c6d119b0b5c4225122a07e"></a>kDown&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a284d4770f56ffc0738cf65cc4138328da8a9e8c8811f2a710615e133456229ee5"></a>kUp&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a284d4770f56ffc0738cf65cc4138328da4f968049bc5e5f7c6e0d89946366fff2"></a>kBoth&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a5b81b1e237588fb7255e08776c8e46c1"></a>
 <div class="memitem">
@@ -127,10 +173,51 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aac78e3ede7c6b450d1b2989466d84c76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libsc::k60::Button::Config::is_use_pull_resistor = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If set, the internal resistor will be used to hold the pin deserted. </p>
+<p>Useful if the button is not connected to one on the board </p>
+
+</div>
+</div>
+<a class="anchor" id="af1f13d98b6a85300c680e7774b870577"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlibsc_1_1k60_1_1_button.xhtml#a75af4a32d8cf503c8375baa9de9a3aba">Listener</a> libsc::k60::Button::Config::listener</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac18bd4e42f80fbfa5bae07cfda961f0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328d">Trigger</a> libsc::k60::Button::Config::listener_trigger</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When to trigger the listener, ignored if <em>listener</em> is not set. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 18 2015 22:13:20 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 11 2015 05:47:35 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

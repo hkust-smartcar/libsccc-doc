@@ -1,9 +1,15 @@
 var searchData=
 [
-  ['time_5fout_5fms',['time_out_ms',['../structlibbase_1_1k60_1_1_watchdog_1_1_config.xhtml#ae70a3e4c6317440a19d3264fdcc3f145',1,'libbase::k60::Watchdog::Config']]],
-  ['tx_5fconfig',['tx_config',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a475c7a3b7ac962471c0ecb0f7ee81212',1,'libbase::k60::Uart::Config::tx_config()'],['../structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#acae1c29799ba352ade1f48bc82b8d079',1,'libsc::k60::UartDevice::Config::tx_config()']]],
-  ['tx_5firq_5fthreshold',['tx_irq_threshold',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#afc422bce128d60fd9559317f079ee026',1,'libbase::k60::Uart::Config']]],
-  ['tx_5fisr',['tx_isr',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a96a71948b0f43c2a2c5c0532e263d29d',1,'libbase::k60::SpiMaster::Config::tx_isr()'],['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a6db0933b26cd05cb615c1513511cbce4',1,'libbase::k60::Uart::Config::tx_isr()']]],
-  ['tx_5fpin',['tx_pin',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a03289034234c37d898a59cd8e01cc821',1,'libbase::k60::Uart::Config']]],
-  ['type',['type',['../structlibutil_1_1_dynamic_block_buffer_1_1_block.xhtml#a13b3a2555a89274f30dc4316d763b576',1,'libutil::DynamicBlockBuffer::Block']]]
+  ['sck_5fpin',['sck_pin',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a2795ec55f366a423c37227f01435929b',1,'libbase::k60::SpiMaster::Config']]],
+  ['scl_5flow_5ftimeout',['scl_low_timeout',['../structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#aff7f178f0786b8ebebf4d2e40cc7e458',1,'libbase::k60::I2cMasterInterface::Config']]],
+  ['scl_5fpin',['scl_pin',['../structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#a4eb7e3c07213a9f0c133bbd908964def',1,'libbase::k60::I2cMasterInterface::Config']]],
+  ['sda_5fpin',['sda_pin',['../structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#af0cbbfe7e332cb19b5f4f91cca6f41d6',1,'libbase::k60::I2cMasterInterface::Config']]],
+  ['seed',['seed',['../structlibbase_1_1k60_1_1_crc_1_1_config.xhtml#a97def773e7967e805f3e33b4542d9093',1,'libbase::k60::Crc::Config']]],
+  ['sin_5fpin',['sin_pin',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a42d21f65a8110f7bb16785b5e6bc625c',1,'libbase::k60::SpiMaster::Config']]],
+  ['size',['size',['../structlibutil_1_1_dynamic_block_buffer_1_1_block.xhtml#a4d0f4a3047e419688313cfcecf705e2d',1,'libutil::DynamicBlockBuffer::Block']]],
+  ['slaves',['slaves',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#aeae5bf8867990641864b12e190ccd4a5',1,'libbase::k60::SpiMaster::Config']]],
+  ['sout_5fpin',['sout_pin',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a3e9ec71e3c409018f61a20b2049ff058',1,'libbase::k60::SpiMaster::Config']]],
+  ['speed',['speed',['../structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a2aeebad897cee6f7f7f75d7086b27cd7',1,'libbase::k60::Adc::Config']]],
+  ['src',['src',['../structlibbase_1_1k60_1_1_dac_1_1_config.xhtml#a21098c23a677046d4bdc1b0e6a5e496b',1,'libbase::k60::Dac::Config']]],
+  ['string_5f',['string_',['../structlibutil_1_1_dynamic_block_buffer_1_1_block.xhtml#a10afdef8f690113e9d0a5ce420d792ab',1,'libutil::DynamicBlockBuffer::Block']]]
 ];

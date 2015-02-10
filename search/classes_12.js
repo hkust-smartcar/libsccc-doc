@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['uart',['Uart',['../classlibbase_1_1k60_1_1_uart.xhtml',1,'libbase::k60']]],
-  ['uartdevice',['UartDevice',['../classlibsc_1_1k60_1_1_uart_device.xhtml',1,'libsc::k60']]]
+  ['var',['Var',['../classlibutil_1_1_remote_var_manager_1_1_var.xhtml',1,'libutil::RemoteVarManager']]]
 ];

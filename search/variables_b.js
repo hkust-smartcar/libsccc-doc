@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['offset',['offset',['../structlibbase_1_1k60_1_1_dma_1_1_config_1_1_node_config.xhtml#a4331171f0f0c00d8b27f5f8a3db72b5e',1,'libbase::k60::Dma::Config::NodeConfig::offset()'],['../structlibbase_1_1k60_1_1_dma_1_1_config_1_1_minor_loop_config.xhtml#a000abb6e35783aafd0f8822a52e7a2ff',1,'libbase::k60::Dma::Config::MinorLoopConfig::offset()']]],
-  ['overflow_5fcount',['overflow_count',['../structlibbase_1_1k60_1_1_ftm_quad_decoder_1_1_config.xhtml#a10f133ee8aa4d67e7f671df6008e35b8',1,'libbase::k60::FtmQuadDecoder::Config']]],
-  ['overflow_5fisr',['overflow_isr',['../structlibbase_1_1k60_1_1_ftm_quad_decoder_1_1_config.xhtml#a55267b7195c55223d8fea032d991e86b',1,'libbase::k60::FtmQuadDecoder::Config']]]
+  ['max_5fpos_5fwidth',['max_pos_width',['../structlibsc_1_1k60_1_1_servo_1_1_config.xhtml#a813354c80b4aab5efb04fe3db7d7faed',1,'libsc::k60::Servo::Config']]],
+  ['min_5fpos_5fwidth',['min_pos_width',['../structlibsc_1_1k60_1_1_servo_1_1_config.xhtml#a4f5086941dbc4fbd6df0fc03948eefc3',1,'libsc::k60::Servo::Config']]],
+  ['module',['module',['../structlibbase_1_1k60_1_1_dac_1_1_config.xhtml#a2adfe0cac4d97374583ac6eae3ed5fa9',1,'libbase::k60::Dac::Config']]],
+  ['multiplier',['multiplier',['../structlibsc_1_1k60_1_1_motor_1_1_config.xhtml#a06fb70a0d0b603eb23d8ba44b7c1a133',1,'libsc::k60::Motor::Config']]],
+  ['mux',['mux',['../structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#ad9a98e5a9846e327d869e59002f90c21',1,'libbase::k60::Pin::Config']]]
 ];

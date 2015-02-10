@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibsc_1_1k60_1_1_st7735r_1_1_config.xhtml" title="libsc::k60::St7735r\l::Config" alt="" coords="5,5,156,49"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1k60_1_1_timer.xhtml" title="libsc::k60::Timer" alt="" coords="5,32,140,60"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_pit_timer.xhtml" title="libsc::k60::PitTimer" alt="" coords="204,5,357,33"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_sys_tick_timer.xhtml" title="libsc::k60::SysTickTimer" alt="" coords="188,57,373,85"/>
 </map>

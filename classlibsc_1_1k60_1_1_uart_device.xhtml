@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">fauxstess cupcake r0</span>
+   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">libsc::k60::UartDevice Class Reference</div>  </div>
 </div><!--header-->
@@ -99,13 +100,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for libsc::k60::UartDevice:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classlibsc_1_1k60_1_1_uart_device__inherit__graph.svg" width="190" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classlibsc_1_1k60_1_1_uart_device__inherit__graph.svg" width="382" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml">Config</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_initializer.xhtml">Initializer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use to initialize the <a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml">UartDevice</a> in possibly a polymorphic way, notice that <a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_initializer.xhtml#a24fa551b56b87f7071e6324560cd9b02">Initializer::config</a> is stored as a reference only.  <a href="structlibsc_1_1k60_1_1_uart_device_1_1_initializer.xhtml#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -116,8 +120,6 @@ Byte *bytes, const size_t size)&gt;&#160;</td><td class="memItemRight" valign="b
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1b4c00657e91a2520eeaf78c710c6a28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a1b4c00657e91a2520eeaf78c710c6a28">UartDevice</a> (const <a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml">Config</a> &amp;config)</td></tr>
-<tr class="separator:a1b4c00657e91a2520eeaf78c710c6a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f97a63dd05e6fe2b6f1febc8c2ddb9e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a6f97a63dd05e6fe2b6f1febc8c2ddb9e">~UartDevice</a> ()</td></tr>
 <tr class="separator:a6f97a63dd05e6fe2b6f1febc8c2ddb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14b582f24256cf6c5df62b6e64067771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a14b582f24256cf6c5df62b6e64067771">SendStr</a> (const char *str)</td></tr>
@@ -155,6 +157,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a58e0c2877894c033620f08cbfb33752d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720e20f6963f6350710d42bb5f0cdb44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a720e20f6963f6350710d42bb5f0cdb44">SetLoopMode</a> (const bool flag)</td></tr>
 <tr class="separator:a720e20f6963f6350710d42bb5f0cdb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:afdf16d4d45a9b99ac8442f8c8dc659a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#afdf16d4d45a9b99ac8442f8c8dc659a5">UartDevice</a> (const <a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_initializer.xhtml">Initializer</a> &amp;initializer)</td></tr>
+<tr class="separator:afdf16d4d45a9b99ac8442f8c8dc659a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5b6fc65b369f3183183ebde147ab79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a7d5b6fc65b369f3183183ebde147ab79">UartDevice</a> (nullptr_t)</td></tr>
+<tr class="separator:a7d5b6fc65b369f3183183ebde147ab79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a421c174eba6d3ba11a8446c0e657f9b3"></a>
@@ -170,30 +179,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1b4c00657e91a2520eeaf78c710c6a28"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">libsc::k60::UartDevice::UartDevice </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml">Config</a> &amp;&#160;</td>
-          <td class="paramname"><em>config</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a6f97a63dd05e6fe2b6f1febc8c2ddb9e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -211,6 +196,54 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdf16d4d45a9b99ac8442f8c8dc659a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">libsc::k60::UartDevice::UartDevice </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_initializer.xhtml">Initializer</a> &amp;&#160;</td>
+          <td class="paramname"><em>initializer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7d5b6fc65b369f3183183ebde147ab79"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">libsc::k60::UartDevice::UartDevice </td>
+          <td>(</td>
+          <td class="paramtype">nullptr_t&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -560,7 +593,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 18 2015 22:13:20 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 11 2015 05:47:35 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

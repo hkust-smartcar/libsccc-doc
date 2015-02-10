@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">fauxstess cupcake r0</span>
+   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -88,51 +88,65 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">libsc::k60::LcdConsole Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>Print text on screen with a managed buffer.  
+ <a href="classlibsc_1_1k60_1_1_lcd_console.xhtml#details">More...</a></p>
+
 <p><code>#include &lt;lcd_console.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml">Config</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:abbd9585261baf660a96dfff24ae74140"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classlibsc_1_1k60_1_1_st7735r.xhtml">St7735r</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#abbd9585261baf660a96dfff24ae74140">Lcd</a></td></tr>
+<tr class="separator:abbd9585261baf660a96dfff24ae74140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad827c1c69e07f548cf6f55e7e4e4d40d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#ad827c1c69e07f548cf6f55e7e4e4d40d">LcdConsole</a> (<a class="el" href="classlibsc_1_1k60_1_1_st7735r.xhtml">St7735r</a> *const lcd)</td></tr>
-<tr class="separator:ad827c1c69e07f548cf6f55e7e4e4d40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5253cf07a680feee39ed3feb446cef78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a5253cf07a680feee39ed3feb446cef78">PrintChar</a> (const char ch, const uint16_t color, const uint16_t bg_color)</td></tr>
-<tr class="separator:a5253cf07a680feee39ed3feb446cef78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a707610e74e90c3501a5bad17071c74d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a707610e74e90c3501a5bad17071c74d2">PrintString</a> (const char *str, const uint16_t color, const uint16_t bg_color)</td></tr>
-<tr class="separator:a707610e74e90c3501a5bad17071c74d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0f179b9e11a5935ba1379805697a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#ada0f179b9e11a5935ba1379805697a16">PrintRawString</a> (const char *str, const size_t len, const uint16_t color, const uint16_t bg_color)</td></tr>
-<tr class="separator:ada0f179b9e11a5935ba1379805697a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a164b5c00aa8e84c70925f7147fac67a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a164b5c00aa8e84c70925f7147fac67a9">PrintChar</a> (const char ch, const uint16_t color)</td></tr>
-<tr class="separator:a164b5c00aa8e84c70925f7147fac67a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09380916a0f230e7c1fbc7c0a34825c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a09380916a0f230e7c1fbc7c0a34825c0">PrintString</a> (const char *str, const uint16_t color)</td></tr>
-<tr class="separator:a09380916a0f230e7c1fbc7c0a34825c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2536fbe4ed6bb71219b7d42e0ed9c70d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a2536fbe4ed6bb71219b7d42e0ed9c70d">PrintRawString</a> (const char *str, const size_t len, const uint16_t color)</td></tr>
-<tr class="separator:a2536fbe4ed6bb71219b7d42e0ed9c70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a771d64462743e0d0907871ad8284e3f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a771d64462743e0d0907871ad8284e3f4">PrintChar</a> (const char ch)</td></tr>
-<tr class="separator:a771d64462743e0d0907871ad8284e3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e622472e8f4e3022d0eee30775404e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a1e622472e8f4e3022d0eee30775404e0">PrintString</a> (const char *str)</td></tr>
-<tr class="separator:a1e622472e8f4e3022d0eee30775404e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cf3e7e3c29e8cd626cb2f8095d8b4cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a8cf3e7e3c29e8cd626cb2f8095d8b4cf">PrintRawString</a> (const char *str, const size_t len)</td></tr>
-<tr class="separator:a8cf3e7e3c29e8cd626cb2f8095d8b4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162920e68428debc177cc7aa253c5349"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a162920e68428debc177cc7aa253c5349">LcdConsole</a> (const <a class="el" href="structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml">Config</a> &amp;config)</td></tr>
+<tr class="separator:a162920e68428debc177cc7aa253c5349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c74839bbfc3feed875cc3056254e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a55c74839bbfc3feed875cc3056254e68">WriteChar</a> (const char ch)</td></tr>
+<tr class="separator:a55c74839bbfc3feed875cc3056254e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39097849734455c7297ecee5ae47e693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a39097849734455c7297ecee5ae47e693">WriteString</a> (const char *str)</td></tr>
+<tr class="separator:a39097849734455c7297ecee5ae47e693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a047d7544a164dec2c00557db24587df7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a047d7544a164dec2c00557db24587df7">WriteBuffer</a> (const char *buf, const size_t length)</td></tr>
+<tr class="separator:a047d7544a164dec2c00557db24587df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f9f37648c42cc9ae41e25010481db6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a72f9f37648c42cc9ae41e25010481db6">Clear</a> (const bool is_clear_screen)</td></tr>
 <tr class="separator:a72f9f37648c42cc9ae41e25010481db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fb7303a784d6aa6c29f64d7f459d698"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a3fb7303a784d6aa6c29f64d7f459d698">SetCursorRow</a> (const uint8_t row)</td></tr>
 <tr class="separator:a3fb7303a784d6aa6c29f64d7f459d698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a99ef93c60bbe2f709aef21498eee9c"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a6a99ef93c60bbe2f709aef21498eee9c">GetMaxTextW</a> ()</td></tr>
-<tr class="separator:a6a99ef93c60bbe2f709aef21498eee9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d42d2552b761137edda749a76492453"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#a8d42d2552b761137edda749a76492453">GetMaxTextH</a> ()</td></tr>
-<tr class="separator:a8d42d2552b761137edda749a76492453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33731a044ec2755997e4997a3d49f6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#aa33731a044ec2755997e4997a3d49f6c">SetTextColor</a> (const uint16_t color)</td></tr>
+<tr class="separator:aa33731a044ec2755997e4997a3d49f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28423f7df4171ab9927ffd6886ebd0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#ac28423f7df4171ab9927ffd6886ebd0a">SetBgColor</a> (const uint16_t color)</td></tr>
+<tr class="separator:ac28423f7df4171ab9927ffd6886ebd0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Print text on screen with a managed buffer. </p>
+<p>Only changed contents are updated </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="abbd9585261baf660a96dfff24ae74140"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classlibsc_1_1k60_1_1_st7735r.xhtml">St7735r</a> <a class="el" href="classlibsc_1_1k60_1_1_lcd_console.xhtml#abbd9585261baf660a96dfff24ae74140">libsc::k60::LcdConsole::Lcd</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ad827c1c69e07f548cf6f55e7e4e4d40d"></a>
+<a class="anchor" id="a162920e68428debc177cc7aa253c5349"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -142,8 +156,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">libsc::k60::LcdConsole::LcdConsole </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classlibsc_1_1k60_1_1_st7735r.xhtml">St7735r</a> *const&#160;</td>
-          <td class="paramname"><em>lcd</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml">Config</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -173,7 +187,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8d42d2552b761137edda749a76492453"></a>
+<a class="anchor" id="ac28423f7df4171ab9927ffd6886ebd0a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -181,324 +195,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr int libsc::k60::LcdConsole::GetMaxTextH </td>
+          <td class="memname">void libsc::k60::LcdConsole::SetBgColor </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6a99ef93c60bbe2f709aef21498eee9c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static constexpr int libsc::k60::LcdConsole::GetMaxTextW </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5253cf07a680feee39ed3feb446cef78"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintChar </td>
-          <td>(</td>
-          <td class="paramtype">const char&#160;</td>
-          <td class="paramname"><em>ch</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>bg_color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a164b5c00aa8e84c70925f7147fac67a9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintChar </td>
-          <td>(</td>
-          <td class="paramtype">const char&#160;</td>
-          <td class="paramname"><em>ch</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a771d64462743e0d0907871ad8284e3f4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintChar </td>
-          <td>(</td>
-          <td class="paramtype">const char&#160;</td>
-          <td class="paramname"><em>ch</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ada0f179b9e11a5935ba1379805697a16"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintRawString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>bg_color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2536fbe4ed6bb71219b7d42e0ed9c70d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintRawString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8cf3e7e3c29e8cd626cb2f8095d8b4cf"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintRawString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a707610e74e90c3501a5bad17071c74d2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>bg_color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a09380916a0f230e7c1fbc7c0a34825c0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>color</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1e622472e8f4e3022d0eee30775404e0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::LcdConsole::PrintString </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -535,10 +235,92 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa33731a044ec2755997e4997a3d49f6c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libsc::k60::LcdConsole::SetTextColor </td>
+          <td>(</td>
+          <td class="paramtype">const uint16_t&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a047d7544a164dec2c00557db24587df7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libsc::k60::LcdConsole::WriteBuffer </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a55c74839bbfc3feed875cc3056254e68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libsc::k60::LcdConsole::WriteChar </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a39097849734455c7297ecee5ae47e693"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libsc::k60::LcdConsole::WriteString </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 18 2015 22:13:20 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Feb 11 2015 05:47:35 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

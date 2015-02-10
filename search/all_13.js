@@ -1,13 +1,23 @@
 var searchData=
 [
-  ['uart',['Uart',['../classlibbase_1_1k60_1_1_uart.xhtml',1,'libbase::k60']]],
-  ['uart',['Uart',['../classlibbase_1_1k60_1_1_uart.xhtml#a392f8ded9dc820afbb6e3c780823a052',1,'libbase::k60::Uart::Uart(const Config &amp;config)'],['../classlibbase_1_1k60_1_1_uart.xhtml#a9a3c1fb5f5f8cdade3b6ed1c0f8afe3b',1,'libbase::k60::Uart::Uart(nullptr_t)'],['../classlibbase_1_1k60_1_1_uart.xhtml#a5001429e8da8465521213ffa4df810ed',1,'libbase::k60::Uart::Uart(const Uart &amp;)=delete'],['../classlibbase_1_1k60_1_1_uart.xhtml#afa71070ad68d14e44e7879ca2a5a407d',1,'libbase::k60::Uart::Uart(Uart &amp;&amp;rhs)']]],
-  ['uartdevice',['UartDevice',['../classlibsc_1_1k60_1_1_uart_device.xhtml',1,'libsc::k60']]],
-  ['uartdevice',['UartDevice',['../classlibsc_1_1k60_1_1_uart_device.xhtml#a1b4c00657e91a2520eeaf78c710c6a28',1,'libsc::k60::UartDevice']]],
-  ['uninitdefaultfwritehandler',['UninitDefaultFwriteHandler',['../namespacelibutil.xhtml#a08f06e16939e4e701c9f0b2e7328ea6e',1,'libutil']]],
-  ['unregpin',['UnregPin',['../classlibbase_1_1k60_1_1_mk60d10_lqfp144.xhtml#a9b75d02b6034e7dbe43e5107ea652aff',1,'libbase::k60::Mk60d10Lqfp144::UnregPin(const Uint pin)'],['../classlibbase_1_1k60_1_1_mk60d10_lqfp144.xhtml#afaf818955dd7c9c207d96ae2970103cb',1,'libbase::k60::Mk60d10Lqfp144::UnregPin(const Pin::Name pin)'],['../classlibbase_1_1k60_1_1_mk60d10_lqfp144.xhtml#a3ed077f6b238c35ca62f92d29f73e8a6',1,'libbase::k60::Mk60d10Lqfp144::UnregPin(const Adc::Name pin)'],['../classlibbase_1_1k60_1_1_mk60d10_lqfp144.xhtml#ac350ab4705e8566a4a6b51f81436907c',1,'libbase::k60::Mk60d10Lqfp144::UnregPin(const Dac::Name pin)'],['../classlibbase_1_1k60_1_1_mk60f15_lqfp144.xhtml#aafa3e5bec0b2aa97113828437198e968',1,'libbase::k60::Mk60f15Lqfp144::UnregPin(const Uint pin)'],['../classlibbase_1_1k60_1_1_mk60f15_lqfp144.xhtml#aae64b546f708f2786c943584f82c0ee2',1,'libbase::k60::Mk60f15Lqfp144::UnregPin(const Pin::Name pin)'],['../classlibbase_1_1k60_1_1_mk60f15_lqfp144.xhtml#a6e752cd6a446ca7fa431d5586f168e2e',1,'libbase::k60::Mk60f15Lqfp144::UnregPin(const Adc::Name pin)'],['../classlibbase_1_1k60_1_1_mk60f15_lqfp144.xhtml#ad27cca81e15abd4468027081eae141a4',1,'libbase::k60::Mk60f15Lqfp144::UnregPin(const Dac::Name pin)']]],
-  ['up',['UP',['../classlibsc_1_1k60_1_1_joystick.xhtml#a6cb77f5270ba5cc46b20d8cc596d5642afbaedde498cdead4f2780217646e9ba1',1,'libsc::k60::Joystick']]],
-  ['update',['Update',['../classlibsc_1_1k60_1_1_encoder.xhtml#acd03fec20039154f071811e78094e163',1,'libsc::k60::Encoder::Update()'],['../classlibsc_1_1k60_1_1_mpu6050.xhtml#a63e125c419523334aa5e14e88f6e7781',1,'libsc::k60::Mpu6050::Update()']]],
-  ['updatepid',['UpdatePid',['../classlibutil_1_1_pid_controller.xhtml#ade90b5e07450f82053454ade18d0fed2',1,'libutil::PidController']]],
-  ['updatetemperature',['UpdateTemperature',['../classlibsc_1_1k60_1_1_ds18b20.xhtml#acc5b1cc322f07ae519ab5ac4eac63ede',1,'libsc::k60::Ds18b20']]]
+  ['text_5fcolor',['text_color',['../structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml#ae410dc2a4554bccea34412a35e76965c',1,'libsc::k60::LcdConsole::Config::text_color()'],['../structlibsc_1_1k60_1_1_lcd_typewriter_1_1_config.xhtml#aa4905292374df9f1cfef74921ec47fdd',1,'libsc::k60::LcdTypewriter::Config::text_color()']]],
+  ['time',['Time',['../classlibsc_1_1k60_1_1_pit_timer.xhtml#a9ed2b3046f331bd82c8177dfa5fb2a8b',1,'libsc::k60::PitTimer::Time()'],['../classlibsc_1_1k60_1_1_sys_tick_timer.xhtml#abeef7725f500f6e1c7e24c7e26acfa73',1,'libsc::k60::SysTickTimer::Time()'],['../classlibsc_1_1k60_1_1_system.xhtml#a39e3e050f5d9e57defb451467ab48f10',1,'libsc::k60::System::Time()'],['../classlibsc_1_1k60_1_1_timer.xhtml#abc2394661ade4c11ec1e0d386abccbe5',1,'libsc::k60::Timer::Time()']]],
+  ['time_5fout_5fms',['time_out_ms',['../structlibbase_1_1k60_1_1_watchdog_1_1_config.xhtml#ae70a3e4c6317440a19d3264fdcc3f145',1,'libbase::k60::Watchdog::Config']]],
+  ['timediff',['TimeDiff',['../classlibsc_1_1k60_1_1_timer.xhtml#a810ce9923460a543c1c99d3b8f9e4470',1,'libsc::k60::Timer']]],
+  ['timer',['Timer',['../classlibsc_1_1k60_1_1_timer.xhtml',1,'libsc::k60']]],
+  ['timerint',['TimerInt',['../classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e',1,'libsc::k60::Timer']]],
+  ['togpi',['ToGpi',['../classlibbase_1_1k60_1_1_gpo.xhtml#a05ad094021b740859b9107809f06f90c',1,'libbase::k60::Gpo']]],
+  ['togpo',['ToGpo',['../classlibbase_1_1k60_1_1_gpi.xhtml#a4d670e2f7db56b0c5008ab052ad7ec44',1,'libbase::k60::Gpi']]],
+  ['towerpromg995',['TowerProMg995',['../classlibsc_1_1k60_1_1_tower_pro_mg995.xhtml',1,'libsc::k60']]],
+  ['towerpromg995',['TowerProMg995',['../classlibsc_1_1k60_1_1_tower_pro_mg995.xhtml#a2ab4c8c0c26032b9b8733e4b97f0fbb7',1,'libsc::k60::TowerProMg995']]],
+  ['trigger',['Trigger',['../structlibsc_1_1k60_1_1_button_1_1_config.xhtml#a284d4770f56ffc0738cf65cc4138328d',1,'libsc::k60::Button::Config::Trigger()'],['../structlibsc_1_1k60_1_1_light_sensor_1_1_config.xhtml#a93b6f1334a54a997b07f13fd4eb791ce',1,'libsc::k60::LightSensor::Config::Trigger()']]],
+  ['trsd05',['TrsD05',['../classlibsc_1_1k60_1_1_trs_d05.xhtml#abb3f25032d0406397205b2e52c2afe49',1,'libsc::k60::TrsD05']]],
+  ['trsd05',['TrsD05',['../classlibsc_1_1k60_1_1_trs_d05.xhtml',1,'libsc::k60']]],
+  ['turn',['Turn',['../classlibbase_1_1k60_1_1_gpo.xhtml#a889933b3923536da963c6cb04ca38160',1,'libbase::k60::Gpo::Turn()'],['../classlibbase_1_1k60_1_1_gpio.xhtml#a1e1409baf646d02b4ce4ce423e8cde39',1,'libbase::k60::Gpio::Turn()']]],
+  ['tx_5fbuf_5fsize',['tx_buf_size',['../structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#a4fb375ca16636b378e86e1c31c62427f',1,'libsc::k60::UartDevice::Config']]],
+  ['tx_5fconfig',['tx_config',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a475c7a3b7ac962471c0ecb0f7ee81212',1,'libbase::k60::Uart::Config']]],
+  ['tx_5firq_5fthreshold',['tx_irq_threshold',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#afc422bce128d60fd9559317f079ee026',1,'libbase::k60::Uart::Config']]],
+  ['tx_5fisr',['tx_isr',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a96a71948b0f43c2a2c5c0532e263d29d',1,'libbase::k60::SpiMaster::Config::tx_isr()'],['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a6db0933b26cd05cb615c1513511cbce4',1,'libbase::k60::Uart::Config::tx_isr()']]],
+  ['tx_5fpin',['tx_pin',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a03289034234c37d898a59cd8e01cc821',1,'libbase::k60::Uart::Config']]],
+  ['type',['type',['../structlibutil_1_1_dynamic_block_buffer_1_1_block.xhtml#a13b3a2555a89274f30dc4316d763b576',1,'libutil::DynamicBlockBuffer::Block::type()'],['../classlibutil_1_1_remote_var_manager_1_1_var.xhtml#a30eb2b7b3800f3ac55fd203f13e40e0a',1,'libutil::RemoteVarManager::Var::Type()']]]
 ];

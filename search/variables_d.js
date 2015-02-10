@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['resolution',['resolution',['../structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a61eb2eb3be88eb6adb2fec9b34abfcf4',1,'libbase::k60::Adc::Config']]],
-  ['rounding_5fmode',['rounding_mode',['../structlibbase_1_1k60_1_1_fpu_1_1_config.xhtml#ae610f9c1e34cb2d90d81726cabc98980',1,'libbase::k60::Fpu::Config']]],
-  ['rx_5fconfig',['rx_config',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a810d66ae547f397266a0627cfcc44ded',1,'libbase::k60::Uart::Config::rx_config()'],['../structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#ab6570b8571699032d8549c852ecb51b0',1,'libsc::k60::UartDevice::Config::rx_config()']]],
-  ['rx_5firq_5fthreshold',['rx_irq_threshold',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#ad3f1f03b40155449a11ae1b5e9f88277',1,'libbase::k60::Uart::Config::rx_irq_threshold()'],['../structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#ab47e9260534dec9e12dd2d20d4fb6658',1,'libsc::k60::UartDevice::Config::rx_irq_threshold()']]],
-  ['rx_5fisr',['rx_isr',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a4747a8430c2eeca31e0739e8322a1e0d',1,'libbase::k60::SpiMaster::Config::rx_isr()'],['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a8224fd85634af500e3adb4e10a727c7a',1,'libbase::k60::Uart::Config::rx_isr()']]],
-  ['rx_5fpin',['rx_pin',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a8a8df806eb511d453f0b8c1f016da2df',1,'libbase::k60::Uart::Config']]]
+  ['pcs_5fto_5fsck_5fdelay_5fns',['pcs_to_sck_delay_ns',['../structlibbase_1_1k60_1_1_spi_master_1_1_config.xhtml#a2b71af143a49d5dea6e60a83cfd77603',1,'libbase::k60::SpiMaster::Config']]],
+  ['period',['period',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ac1dc706a277bca9fecc7d1e6476bce41',1,'libbase::k60::Pwm::Config::period()'],['../structlibsc_1_1k60_1_1_servo_1_1_config.xhtml#a9900035c9c7a18edf65d682877cf8769',1,'libsc::k60::Servo::Config::period()']]],
+  ['pin',['pin',['../structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a0e4e766fd95ad80add405885a4f2e45e',1,'libbase::k60::Adc::Config::pin()'],['../structlibbase_1_1k60_1_1_gpi_1_1_config.xhtml#a16c4166c94466bfcf0d53101cd7ab3fb',1,'libbase::k60::Gpi::Config::pin()'],['../structlibbase_1_1k60_1_1_gpo_1_1_config.xhtml#ae7fee10c19002ddcd4e8554e7e1a7fda',1,'libbase::k60::Gpo::Config::pin()'],['../structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#a7ee3a9c80605c6241f8823877026cab7',1,'libbase::k60::Pin::Config::pin()'],['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#abf67019786cb2b2a817266f31a72a27d',1,'libbase::k60::Pwm::Config::pin()']]],
+  ['pit_5fchannel',['pit_channel',['../structlibbase_1_1k60_1_1_soft_pwm_1_1_config.xhtml#a24b2e7c62b093cab92c0f113114fe626',1,'libbase::k60::SoftPwm::Config']]],
+  ['polynomial',['polynomial',['../structlibbase_1_1k60_1_1_crc_1_1_config.xhtml#a6e596dfa2635073363176a2c5d1a2d4d',1,'libbase::k60::Crc::Config']]],
+  ['pos_5fwidth',['pos_width',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58',1,'libbase::k60::Pwm::Config']]],
+  ['precision',['precision',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a97ab70cdd6d7198d58f8a9aa23693a98',1,'libbase::k60::Pwm::Config']]]
 ];
