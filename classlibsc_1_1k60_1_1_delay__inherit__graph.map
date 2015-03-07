@@ -1,5 +1,0 @@
-<map id="libsc::k60::Delay" name="libsc::k60::Delay">
-<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_dwt_delay.xhtml" title="libsc::k60::DwtDelay" alt="" coords="5,81,168,109"/>
-<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_pit_delay.xhtml" title="libsc::k60::PitDelay" alt="" coords="192,81,344,109"/>
-<area shape="rect" id="node4" href="$classlibsc_1_1k60_1_1_sys_tick_delay.xhtml" title="libsc::k60::SysTickDelay" alt="" coords="368,81,552,109"/>
-</map>

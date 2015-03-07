@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['Name',['../classlibbase_1_1k60_1_1_adc.xhtml#a2f32c182e2ca3404cdcd2de270151ef6',1,'libbase::k60::Adc::Name()'],['../classlibbase_1_1k60_1_1_dac.xhtml#a4d81398c27f47ad2f9235880d19a9920',1,'libbase::k60::Dac::Name()'],['../classlibbase_1_1k60_1_1_ftm.xhtml#a4c0a93a51eac7bdaa02c677dbcdce5ab',1,'libbase::k60::Ftm::Name()'],['../classlibbase_1_1k60_1_1_pin.xhtml#a3d7cd925723fa2367a333e40b3c51a39',1,'libbase::k60::Pin::Name()']]]
+  ['muxcontrol',['MuxControl',['../structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#aa88235b02abde861d710cf3ddba621b4',1,'libbase::k60::Pin::Config::MuxControl()'],['../structlibbase_1_1kl26_1_1_pin_1_1_config.xhtml#a6d8673a9d9b7039fd7cd2b8d7b713425',1,'libbase::kl26::Pin::Config::MuxControl()']]]
 ];

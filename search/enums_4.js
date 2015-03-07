@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interrupt',['Interrupt',['../structlibbase_1_1k60_1_1_pin_1_1_config.xhtml#a1a9c2dfd95b32b795846357ae4ac3706',1,'libbase::k60::Pin::Config']]]
+  ['fps',['Fps',['../structlibsc_1_1k60_1_1_ov7725_1_1_config.xhtml#aba9d218a82cecfd2ade8c94996815436',1,'libsc::k60::Ov7725::Config']]]
 ];

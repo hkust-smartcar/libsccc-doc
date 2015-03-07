@@ -1,4 +1,4 @@
 <map id="libutil::PidController&lt; InT_, OutT_ &gt;" name="libutil::PidController&lt; InT_, OutT_ &gt;">
-<area shape="rect" id="node2" href="$classlibutil_1_1_incremental_pid_controller.xhtml" title="libutil::IncrementalPidController\l\&lt; InT_, OutT_ \&gt;" alt="" coords="213,5,456,49"/>
-<area shape="rect" id="node3" href="$classlibutil_1_1_positional_pid_controller.xhtml" title="libutil::PositionalPidController\l\&lt; InT_, OutT_ \&gt;" alt="" coords="221,73,449,117"/>
+<area shape="rect" id="node2" href="$classlibutil_1_1_incremental_pid_controller.xhtml" title="libutil::IncrementalPidController\l\&lt; InT_, OutT_ \&gt;" alt="" coords="252,5,539,52"/>
+<area shape="rect" id="node3" href="$classlibutil_1_1_positional_pid_controller.xhtml" title="libutil::PositionalPidController\l\&lt; InT_, OutT_ \&gt;" alt="" coords="256,76,535,123"/>
 </map>

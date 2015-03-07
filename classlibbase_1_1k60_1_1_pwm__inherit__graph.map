@@ -1,4 +1,4 @@
 <map id="libbase::k60::Pwm" name="libbase::k60::Pwm">
-<area shape="rect" id="node2" href="$classlibbase_1_1k60_1_1_ftm_pwm.xhtml" title="libbase::k60::FtmPwm" alt="" coords="5,81,180,109"/>
-<area shape="rect" id="node3" href="$classlibbase_1_1k60_1_1_soft_pwm.xhtml" title="Generate PWM signal using PIT and GPIO, only guarantee precision down to us level. " alt="" coords="204,81,379,109"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1k60_1_1_ftm_pwm.xhtml" title="libbase::k60::FtmPwm" alt="" coords="5,83,188,112"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1k60_1_1_soft_pwm.xhtml" title="Generate PWM signal using PIT and GPIO, only guarantee precision down to us level. " alt="" coords="212,83,403,112"/>
 </map>

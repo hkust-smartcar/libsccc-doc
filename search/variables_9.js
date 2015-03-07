@@ -6,7 +6,7 @@ var searchData=
   ['kgray',['kGray',['../classlibsc_1_1k60_1_1_lcd.xhtml#a1e5d3e7dbeff3f098acde3c9e19fb8c3',1,'libsc::k60::Lcd']]],
   ['kgreen',['kGreen',['../classlibsc_1_1k60_1_1_lcd.xhtml#ac5bebaa7bfb4a16836d86f36217ba069',1,'libsc::k60::Lcd']]],
   ['kguardnull',['kGuardNull',['../namespacelibsc.xhtml#af7376a572f821ef5682d0532427498e5',1,'libsc']]],
-  ['kmodulechannelcount',['kModuleChannelCount',['../classlibbase_1_1k60_1_1_adc.xhtml#a8ef56b1f06e4e74c89d06ee20f0ff414',1,'libbase::k60::Adc']]],
+  ['kmodulechannelcount',['kModuleChannelCount',['../classlibbase_1_1k60_1_1_adc.xhtml#a8ef56b1f06e4e74c89d06ee20f0ff414',1,'libbase::k60::Adc::kModuleChannelCount()'],['../classlibbase_1_1kl26_1_1_adc.xhtml#a7191dd0d36f3c171a4a0e45cd4fc6cad',1,'libbase::kl26::Adc::kModuleChannelCount()']]],
   ['kpurple',['kPurple',['../classlibsc_1_1k60_1_1_lcd.xhtml#af6d1725024dc6e4bf6e37c08626ec1f7',1,'libsc::k60::Lcd']]],
   ['kred',['kRed',['../classlibsc_1_1k60_1_1_lcd.xhtml#a8be11087d60b9cae6899f8eb1c6f575c',1,'libsc::k60::Lcd']]],
   ['ksensorw',['kSensorW',['../classlibsc_1_1k60_1_1_linear_ccd.xhtml#a1d42d1039f457a33a19e980f78aa7aa5',1,'libsc::k60::LinearCcd']]],

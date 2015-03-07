@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['range',['Range',['../structlibsc_1_1k60_1_1_mpu6050_1_1_config.xhtml#a1b44f99ea2a7d157257157dc79112b32',1,'libsc::k60::Mpu6050::Config']]],
-  ['resolution',['Resolution',['../structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a93cdad2b73f300fcd675f6a977c4872a',1,'libbase::k60::Adc::Config']]],
-  ['roundingmode',['RoundingMode',['../structlibbase_1_1k60_1_1_fpu_1_1_config.xhtml#a899cad99bd195693d36d958b6f44bd13',1,'libbase::k60::Fpu::Config']]]
+  ['powermode',['PowerMode',['../structlibsc_1_1k60_1_1_mma8451q_1_1_config.xhtml#a0f831d0a9714c386897e5570bdcf8966',1,'libsc::k60::Mma8451q::Config']]],
+  ['precision',['Precision',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a782ba6c139c0efd00869622933e68ddf',1,'libbase::k60::Pwm::Config::Precision()'],['../structlibbase_1_1kl26_1_1_pwm_1_1_config.xhtml#ad757864e4a31f3f0348fe03bd6c54ca6',1,'libbase::kl26::Pwm::Config::Precision()']]]
 ];

@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -242,6 +242,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2382af7862752225555ffa74c2972475"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml#a2382af7862752225555ffa74c2972475">SetAveragePass</a> (const <a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a2ee0d9ca55a4a9d2ff15c6e1f3b90432">Config::AveragePass</a> avg_pass)</td></tr>
 <tr class="memdesc:a2382af7862752225555ffa74c2972475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the hardware average pass, effective from the next call to <a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml#a505aba4bb45bc90e5d61ecf6670a24d6">StartConvert()</a>  <a href="#a2382af7862752225555ffa74c2972475">More...</a><br /></td></tr>
 <tr class="separator:a2382af7862752225555ffa74c2972475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5260774ee44d4febb80f630d4b1ead86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml#a5260774ee44d4febb80f630d4b1ead86">ConfigResultAsDmaSrc</a> (<a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config.xhtml">Dma::Config</a> *config)</td></tr>
+<tr class="memdesc:a5260774ee44d4febb80f630d4b1ead86"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml">Config</a> this <a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml">Adc</a> up to be ready to serve conversion result as DMA source, and set <em>config</em> accordingly.  <a href="#a5260774ee44d4febb80f630d4b1ead86">More...</a><br /></td></tr>
+<tr class="separator:a5260774ee44d4febb80f630d4b1ead86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -535,6 +538,33 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5260774ee44d4febb80f630d4b1ead86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libbase::k60::Adc::ConfigResultAsDmaSrc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config.xhtml">Dma::Config</a> *&#160;</td>
+          <td class="paramname"><em>config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml">Config</a> this <a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml">Adc</a> up to be ready to serve conversion result as DMA source, and set <em>config</em> accordingly. </p>
+<p>The following options are also set besides mux_src and src:<br />
+ <a class="el" href="structlibbase_1_1k60_1_1_dma_1_1_config.xhtml#aed549791d60afadf290675869b5ce8f2" title="of bytes trasferred per request.">Dma::Config::minor_bytes</a> = 1 or 2 (depending on the resolution)</p>
+<dl class="section note"><dt>Note</dt><dd>To use DMA, <a class="el" href="structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a5c524abec5ff8947cd0b29beb516eb1c">Config::conversion_isr</a> must NOT be set for this <a class="el" href="classlibbase_1_1k60_1_1_adc.xhtml">Adc</a>. Otherwise, the operation will fail and no changes would be made to <em>config</em> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">config</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a9708eb3a323ea302158ff9bd79272ad7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -785,7 +815,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

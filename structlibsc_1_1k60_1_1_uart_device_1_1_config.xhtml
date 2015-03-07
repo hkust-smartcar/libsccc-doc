@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,7 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a96b9455500884505b261b7558d2f73ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a0342821a07871a6d1b765d351446d0c3">libbase::k60::Uart::Config::BaudRate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#a96b9455500884505b261b7558d2f73ab">baud_rate</a></td></tr>
 <tr class="separator:a96b9455500884505b261b7558d2f73ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab47e9260534dec9e12dd2d20d4fb6658"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#ab47e9260534dec9e12dd2d20d4fb6658">rx_irq_threshold</a> = 1</td></tr>
-<tr class="memdesc:ab47e9260534dec9e12dd2d20d4fb6658"><td class="mdescLeft">&#160;</td><td class="mdescRight">The # bytes in the Rx buffer needed to fire the interrupt.  <a href="#ab47e9260534dec9e12dd2d20d4fb6658">More...</a><br /></td></tr>
+<tr class="memdesc:ab47e9260534dec9e12dd2d20d4fb6658"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bytes in the Rx buffer needed to fire the interrupt.  <a href="#ab47e9260534dec9e12dd2d20d4fb6658">More...</a><br /></td></tr>
 <tr class="separator:ab47e9260534dec9e12dd2d20d4fb6658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05c50f5233921d44f48057e3e506dcc1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#a05c50f5233921d44f48057e3e506dcc1">is_rx_irq_threshold_percentage</a> = false</td></tr>
 <tr class="memdesc:a05c50f5233921d44f48057e3e506dcc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">To treat rx_irq_threshold as a percentage of Rx buffer size.  <a href="#a05c50f5233921d44f48057e3e506dcc1">More...</a><br /></td></tr>
@@ -110,6 +110,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a4fb375ca16636b378e86e1c31c62427f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#a4fb375ca16636b378e86e1c31c62427f">tx_buf_size</a> = 14</td></tr>
 <tr class="memdesc:a4fb375ca16636b378e86e1c31c62427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of the Tx buffer.  <a href="#a4fb375ca16636b378e86e1c31c62427f">More...</a><br /></td></tr>
 <tr class="separator:a4fb375ca16636b378e86e1c31c62427f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe958186451119d603ede236cac9d0ef"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#abe958186451119d603ede236cac9d0ef">tx_dma_channel</a> = static_cast&lt;uint8_t&gt;(-1)</td></tr>
+<tr class="memdesc:abe958186451119d603ede236cac9d0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Experimental) If value != -1, DMA will be enabled for this UART's Tx, using the DMA channel specified here  <a href="#abe958186451119d603ede236cac9d0ef">More...</a><br /></td></tr>
+<tr class="separator:abe958186451119d603ede236cac9d0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada562a8ed0ca19e04c3bc0e91b849b56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a9a3bce846b5ff2ef6b5d980e9186af6c">OnReceiveListener</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibsc_1_1k60_1_1_uart_device_1_1_config.xhtml#ada562a8ed0ca19e04c3bc0e91b849b56">rx_isr</a></td></tr>
+<tr class="memdesc:ada562a8ed0ca19e04c3bc0e91b849b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">The listener for Rx events.  <a href="#ada562a8ed0ca19e04c3bc0e91b849b56">More...</a><br /></td></tr>
+<tr class="separator:ada562a8ed0ca19e04c3bc0e91b849b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="a96b9455500884505b261b7558d2f73ab"></a>
@@ -160,8 +166,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The # bytes in the Rx buffer needed to fire the interrupt. </p>
-<p>This will affect how often new bytes are pushed to the internal buffer, or your listener being triggered, depending on the config </p>
+<p>The number of bytes in the Rx buffer needed to fire the interrupt. </p>
+<p>This will affect how often new bytes are pushed to the internal buffer, or your listener being triggered, depending on the config. If a buffer is not available for your device, this setting has no effect </p>
+
+</div>
+</div>
+<a class="anchor" id="ada562a8ed0ca19e04c3bc0e91b849b56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a9a3bce846b5ff2ef6b5d980e9186af6c">OnReceiveListener</a> libsc::k60::UartDevice::Config::rx_isr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The listener for Rx events. </p>
+<p>Return true if the listener has consumed the data. In that case, the data won't be pushed to the internal buffer </p>
 
 </div>
 </div>
@@ -180,10 +201,24 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abe958186451119d603ede236cac9d0ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t libsc::k60::UartDevice::Config::tx_dma_channel = static_cast&lt;uint8_t&gt;(-1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>(Experimental) If value != -1, DMA will be enabled for this UART's Tx, using the DMA channel specified here </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

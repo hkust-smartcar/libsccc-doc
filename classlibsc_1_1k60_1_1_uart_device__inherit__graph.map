@@ -1,4 +1,4 @@
 <map id="libsc::k60::UartDevice" name="libsc::k60::UartDevice">
-<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_ftdi_ft232r.xhtml" title="libsc::k60::FtdiFt232r" alt="" coords="5,81,172,109"/>
-<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_jy_mcu_bt106.xhtml" title="libsc::k60::JyMcuBt106" alt="" coords="197,81,375,109"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1k60_1_1_ftdi_ft232r.xhtml" title="libsc::k60::FtdiFt232r" alt="" coords="5,83,204,112"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1k60_1_1_jy_mcu_bt106.xhtml" title="libsc::k60::JyMcuBt106" alt="" coords="228,83,427,112"/>
 </map>

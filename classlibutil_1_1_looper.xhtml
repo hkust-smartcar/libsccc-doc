@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -94,16 +94,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Manage the main loop of a program, and invoke registered functions at the time specified.  
+ <a href="classlibutil_1_1_looper.xhtml#details">More...</a></p>
+
 <p><code>#include &lt;looper.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5d09c6f69d4b14ea4f704fb59abcc1dc"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(const <br class="typebreak" />
-<a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a> <br class="typebreak" />
-request, const <br class="typebreak" />
-<a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a> <br class="typebreak" />
-actual)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a5d09c6f69d4b14ea4f704fb59abcc1dc">Callback</a></td></tr>
-<tr class="separator:a5d09c6f69d4b14ea4f704fb59abcc1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b28e3aabe38faf2d16364138ca7610a"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(const <br class="typebreak" />
+<a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a> request, <br class="typebreak" />
+const <a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a> <br class="typebreak" />
+actual)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a2b28e3aabe38faf2d16364138ca7610a">Callback</a></td></tr>
+<tr class="separator:a2b28e3aabe38faf2d16364138ca7610a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -112,19 +114,45 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe0979a6988b0d7abe1df729f0a88107"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#afe0979a6988b0d7abe1df729f0a88107">~Looper</a> ()</td></tr>
 <tr class="separator:afe0979a6988b0d7abe1df729f0a88107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68e47050b49d92e07565d42d447b8da7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a68e47050b49d92e07565d42d447b8da7">Loop</a> ()</td></tr>
+<tr class="memdesc:a68e47050b49d92e07565d42d447b8da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the main loop.  <a href="#a68e47050b49d92e07565d42d447b8da7">More...</a><br /></td></tr>
 <tr class="separator:a68e47050b49d92e07565d42d447b8da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3798da7b6712abac2d7f6c61bc34d6b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a3798da7b6712abac2d7f6c61bc34d6b2">Break</a> ()</td></tr>
 <tr class="separator:a3798da7b6712abac2d7f6c61bc34d6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83d0ade0cd6c52b5783f9baafcd72328"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a83d0ade0cd6c52b5783f9baafcd72328">RunAfter</a> (const <a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a> ms, const <a class="el" href="classlibutil_1_1_looper.xhtml#a5d09c6f69d4b14ea4f704fb59abcc1dc">Callback</a> &amp;c)</td></tr>
-<tr class="separator:a83d0ade0cd6c52b5783f9baafcd72328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36527242e323543649d776cbdb19607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#ab36527242e323543649d776cbdb19607">Once</a> ()</td></tr>
+<tr class="memdesc:ab36527242e323543649d776cbdb19607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the looper once and return immediately.  <a href="#ab36527242e323543649d776cbdb19607">More...</a><br /></td></tr>
+<tr class="separator:ab36527242e323543649d776cbdb19607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c579627fbfb1aae645d963e7755a5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a3c579627fbfb1aae645d963e7755a5c4">RunAfter</a> (const <a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a> ms, const <a class="el" href="classlibutil_1_1_looper.xhtml#a2b28e3aabe38faf2d16364138ca7610a">Callback</a> &amp;c)</td></tr>
+<tr class="separator:a3c579627fbfb1aae645d963e7755a5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1711c7a34d2790e97836c3d42c55e2a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a1711c7a34d2790e97836c3d42c55e2a0">ResetTiming</a> ()</td></tr>
+<tr class="memdesc:a1711c7a34d2790e97836c3d42c55e2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the internal time.  <a href="#a1711c7a34d2790e97836c3d42c55e2a0">More...</a><br /></td></tr>
+<tr class="separator:a1711c7a34d2790e97836c3d42c55e2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ba80dd01f19a92117a24940e4a27c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_looper.xhtml#a69ba80dd01f19a92117a24940e4a27c0">IsBreak</a> () const </td></tr>
+<tr class="memdesc:a69ba80dd01f19a92117a24940e4a27c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether <a class="el" href="classlibutil_1_1_looper.xhtml#a3798da7b6712abac2d7f6c61bc34d6b2">Break()</a> has been called.  <a href="#a69ba80dd01f19a92117a24940e4a27c0">More...</a><br /></td></tr>
+<tr class="separator:a69ba80dd01f19a92117a24940e4a27c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a5d09c6f69d4b14ea4f704fb59abcc1dc"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manage the main loop of a program, and invoke registered functions at the time specified. </p>
+<p>Example: </p><div class="fragment"><div class="line">    Led leds[] = {Led({0, <span class="keyword">true</span>}), Led({1, <span class="keyword">true</span>}), Led({2, <span class="keyword">true</span>}), Led({3, <span class="keyword">true</span>})};</div>
+<div class="line">    <span class="keywordtype">int</span> led_id = 0;</div>
+<div class="line">    std::function&lt;void(const Timer::TimerInt, const Timer::TimerInt)&gt; blink =</div>
+<div class="line">            [&amp;](<span class="keyword">const</span> Timer::TimerInt request, <span class="keyword">const</span> Timer::TimerInt)</div>
+<div class="line">            {</div>
+<div class="line">                leds[led_id].Switch();</div>
+<div class="line">                <span class="keywordflow">if</span> (++led_id &gt;= 4)</div>
+<div class="line">                {</div>
+<div class="line">                    led_id = 0;</div>
+<div class="line">                }</div>
+<div class="line"></div>
+<div class="line">                looper.RunAfter(request, blink);</div>
+<div class="line">            };</div>
+<div class="line">    looper.RunAfter(250, blink);</div>
+</div><!-- fragment --></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a2b28e3aabe38faf2d16364138ca7610a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::function&lt;void(const <a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a> request, const <a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a> actual)&gt; <a class="el" href="classlibutil_1_1_looper.xhtml#a5d09c6f69d4b14ea4f704fb59abcc1dc">libutil::Looper::Callback</a></td>
+          <td class="memname">typedef std::function&lt;void(const <a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a> request, const <a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a> actual)&gt; <a class="el" href="classlibutil_1_1_looper.xhtml#a2b28e3aabe38faf2d16364138ca7610a">libutil::Looper::Callback</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -178,6 +206,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a69ba80dd01f19a92117a24940e4a27c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libutil::Looper::IsBreak </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return whether <a class="el" href="classlibutil_1_1_looper.xhtml#a3798da7b6712abac2d7f6c61bc34d6b2">Break()</a> has been called. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a68e47050b49d92e07565d42d447b8da7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -191,22 +245,60 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Start the main loop. </p>
+<p>This method would not return unless <a class="el" href="classlibutil_1_1_looper.xhtml#a3798da7b6712abac2d7f6c61bc34d6b2">Break()</a> is called </p>
+
 </div>
 </div>
-<a class="anchor" id="a83d0ade0cd6c52b5783f9baafcd72328"></a>
+<a class="anchor" id="ab36527242e323543649d776cbdb19607"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libutil::Looper::Once </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Run the looper once and return immediately. </p>
+<p>Mainly used when you want a custom main loop, in that case, you should call <a class="el" href="classlibutil_1_1_looper.xhtml#a1711c7a34d2790e97836c3d42c55e2a0" title="Reset the internal time. ">ResetTiming()</a> first before entering such loop </p>
+
+</div>
+</div>
+<a class="anchor" id="a1711c7a34d2790e97836c3d42c55e2a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libutil::Looper::ResetTiming </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the internal time. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3c579627fbfb1aae645d963e7755a5c4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void libutil::Looper::RunAfter </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlibsc_1_1k60_1_1_timer.xhtml#a42a7209a90bcdbb12336e45442129d3e">libsc::k60::Timer::TimerInt</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889">libsc::Timer::TimerInt</a>&#160;</td>
           <td class="paramname"><em>ms</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classlibutil_1_1_looper.xhtml#a5d09c6f69d4b14ea4f704fb59abcc1dc">Callback</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classlibutil_1_1_looper.xhtml#a2b28e3aabe38faf2d16364138ca7610a">Callback</a> &amp;&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -222,7 +314,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

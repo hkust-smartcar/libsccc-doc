@@ -1,0 +1,5 @@
+<map id="libsc::Timer" name="libsc::Timer">
+<area shape="rect" id="node2" href="$classlibsc_1_1kl26_1_1_lptmr_timer.xhtml" title="libsc::kl26::LptmrTimer" alt="" coords="5,83,212,112"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1_pit_timer.xhtml" title="libsc::PitTimer" alt="" coords="236,83,379,112"/>
+<area shape="rect" id="node4" href="$classlibsc_1_1_sys_tick_timer.xhtml" title="libsc::SysTickTimer" alt="" coords="403,83,577,112"/>
+</map>

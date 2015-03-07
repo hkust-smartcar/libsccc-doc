@@ -1,0 +1,4 @@
+<map id="libbase::kl26::QuadDecoderInterface" name="libbase::kl26::QuadDecoderInterface">
+<area shape="rect" id="node2" href="$classlibbase_1_1kl26_1_1_soft_quad_decoder.xhtml" title="Software emulated quadrature decoding using pin interrupt and GPIO. " alt="" coords="5,100,268,129"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1kl26_1_1_tpm_quad_decoder.xhtml" title="libbase::kl26::TpmQuadDecoder" alt="" coords="292,100,547,129"/>
+</map>

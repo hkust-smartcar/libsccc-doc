@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -100,7 +100,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for libsc::k60::UartDevice:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classlibsc_1_1k60_1_1_uart_device__inherit__graph.svg" width="382" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classlibsc_1_1k60_1_1_uart_device__inherit__graph.svg" width="432" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -113,45 +114,39 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a421c174eba6d3ba11a8446c0e657f9b3"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; void(const <br class="typebreak" />
-Byte *bytes, const size_t size)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a421c174eba6d3ba11a8446c0e657f9b3">OnReceiveListener</a></td></tr>
-<tr class="separator:a421c174eba6d3ba11a8446c0e657f9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3bce846b5ff2ef6b5d980e9186af6c"><td class="memItemLeft" align="right" valign="top">typedef std::function&lt; bool(const <br class="typebreak" />
+std::vector&lt; Byte &gt; &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a9a3bce846b5ff2ef6b5d980e9186af6c">OnReceiveListener</a></td></tr>
+<tr class="separator:a9a3bce846b5ff2ef6b5d980e9186af6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f97a63dd05e6fe2b6f1febc8c2ddb9e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a6f97a63dd05e6fe2b6f1febc8c2ddb9e">~UartDevice</a> ()</td></tr>
 <tr class="separator:a6f97a63dd05e6fe2b6f1febc8c2ddb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14b582f24256cf6c5df62b6e64067771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a14b582f24256cf6c5df62b6e64067771">SendStr</a> (const char *str)</td></tr>
-<tr class="memdesc:a14b582f24256cf6c5df62b6e64067771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#a14b582f24256cf6c5df62b6e64067771">More...</a><br /></td></tr>
-<tr class="separator:a14b582f24256cf6c5df62b6e64067771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff53e7340636e1d083c8bc7b20c16b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#aaff53e7340636e1d083c8bc7b20c16b2">SendStr</a> (std::unique_ptr&lt; char[]&gt; &amp;&amp;str)</td></tr>
-<tr class="memdesc:aaff53e7340636e1d083c8bc7b20c16b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#aaff53e7340636e1d083c8bc7b20c16b2">More...</a><br /></td></tr>
-<tr class="separator:aaff53e7340636e1d083c8bc7b20c16b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5636a84d8a2fbdcb28861fb454bdc15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#af5636a84d8a2fbdcb28861fb454bdc15">SendStr</a> (std::string &amp;&amp;str)</td></tr>
-<tr class="memdesc:af5636a84d8a2fbdcb28861fb454bdc15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#af5636a84d8a2fbdcb28861fb454bdc15">More...</a><br /></td></tr>
-<tr class="separator:af5636a84d8a2fbdcb28861fb454bdc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12f6e3f280b2f9991ec1cc53eb202ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#af12f6e3f280b2f9991ec1cc53eb202ff">SendBuffer</a> (const Byte *buf, const size_t len)</td></tr>
-<tr class="memdesc:af12f6e3f280b2f9991ec1cc53eb202ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#af12f6e3f280b2f9991ec1cc53eb202ff">More...</a><br /></td></tr>
-<tr class="separator:af12f6e3f280b2f9991ec1cc53eb202ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35a4dfb4f417f038c6dc1e531965ed91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a35a4dfb4f417f038c6dc1e531965ed91">SendBuffer</a> (std::unique_ptr&lt; Byte[]&gt; &amp;&amp;buf, const size_t len)</td></tr>
-<tr class="memdesc:a35a4dfb4f417f038c6dc1e531965ed91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#a35a4dfb4f417f038c6dc1e531965ed91">More...</a><br /></td></tr>
-<tr class="separator:a35a4dfb4f417f038c6dc1e531965ed91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30925b2b16131e3efeeefb8e91a0a50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ac30925b2b16131e3efeeefb8e91a0a50">SendBuffer</a> (std::vector&lt; Byte &gt; &amp;&amp;buf)</td></tr>
-<tr class="memdesc:ac30925b2b16131e3efeeefb8e91a0a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#ac30925b2b16131e3efeeefb8e91a0a50">More...</a><br /></td></tr>
-<tr class="separator:ac30925b2b16131e3efeeefb8e91a0a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa187c3456f789485acbd2b25917ab997"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#aa187c3456f789485acbd2b25917ab997">SendStrLiteral</a> (const char *str)</td></tr>
-<tr class="memdesc:aa187c3456f789485acbd2b25917ab997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string literal through UART.  <a href="#aa187c3456f789485acbd2b25917ab997">More...</a><br /></td></tr>
-<tr class="separator:aa187c3456f789485acbd2b25917ab997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f939585f442f78ae4b2b3022d956406"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a4f939585f442f78ae4b2b3022d956406">SendStr</a> (const std::string &amp;str)</td></tr>
-<tr class="separator:a4f939585f442f78ae4b2b3022d956406"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44df34836824fd3ddc8b9983cd8d9bb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a44df34836824fd3ddc8b9983cd8d9bb2">SendBuffer</a> (const std::vector&lt; Byte &gt; &amp;buf)</td></tr>
-<tr class="separator:a44df34836824fd3ddc8b9983cd8d9bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6bca58f445941422f84aac6d6b6c801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#af6bca58f445941422f84aac6d6b6c801">EnableRx</a> (const <a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a421c174eba6d3ba11a8446c0e657f9b3">OnReceiveListener</a> &amp;listener)</td></tr>
-<tr class="separator:af6bca58f445941422f84aac6d6b6c801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f0b9581ce0bd717ef19e747fbc0c408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a4f0b9581ce0bd717ef19e747fbc0c408">EnableRx</a> ()</td></tr>
-<tr class="separator:a4f0b9581ce0bd717ef19e747fbc0c408"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9d678f0cb827e0d19fe93f0dae95e07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ac9d678f0cb827e0d19fe93f0dae95e07">DisableRx</a> ()</td></tr>
-<tr class="separator:ac9d678f0cb827e0d19fe93f0dae95e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2660cb138329a8ce7c7e5ad61351f57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ad2660cb138329a8ce7c7e5ad61351f57">SendStr</a> (const char *str)</td></tr>
+<tr class="memdesc:ad2660cb138329a8ce7c7e5ad61351f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#ad2660cb138329a8ce7c7e5ad61351f57">More...</a><br /></td></tr>
+<tr class="separator:ad2660cb138329a8ce7c7e5ad61351f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e77dff7666466a9a1075947578c5f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a03e77dff7666466a9a1075947578c5f6">SendStr</a> (std::unique_ptr&lt; char[]&gt; &amp;&amp;str)</td></tr>
+<tr class="memdesc:a03e77dff7666466a9a1075947578c5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#a03e77dff7666466a9a1075947578c5f6">More...</a><br /></td></tr>
+<tr class="separator:a03e77dff7666466a9a1075947578c5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c6534cc888d6e56c3c0f8ae493dae5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ac8c6534cc888d6e56c3c0f8ae493dae5">SendStr</a> (std::string &amp;&amp;str)</td></tr>
+<tr class="memdesc:ac8c6534cc888d6e56c3c0f8ae493dae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string through UART.  <a href="#ac8c6534cc888d6e56c3c0f8ae493dae5">More...</a><br /></td></tr>
+<tr class="separator:ac8c6534cc888d6e56c3c0f8ae493dae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ed758aed2c82f231fa7c47136e502c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a59ed758aed2c82f231fa7c47136e502c">SendBuffer</a> (const Byte *buf, const size_t len)</td></tr>
+<tr class="memdesc:a59ed758aed2c82f231fa7c47136e502c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#a59ed758aed2c82f231fa7c47136e502c">More...</a><br /></td></tr>
+<tr class="separator:a59ed758aed2c82f231fa7c47136e502c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da6da229cf5945a381bba8a9930bda4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a5da6da229cf5945a381bba8a9930bda4">SendBuffer</a> (std::unique_ptr&lt; Byte[]&gt; &amp;&amp;buf, const size_t len)</td></tr>
+<tr class="memdesc:a5da6da229cf5945a381bba8a9930bda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#a5da6da229cf5945a381bba8a9930bda4">More...</a><br /></td></tr>
+<tr class="separator:a5da6da229cf5945a381bba8a9930bda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e2954af71d5ce988f373b5938c7068"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ad1e2954af71d5ce988f373b5938c7068">SendBuffer</a> (std::vector&lt; Byte &gt; &amp;&amp;buf)</td></tr>
+<tr class="memdesc:ad1e2954af71d5ce988f373b5938c7068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a buffer through UART.  <a href="#ad1e2954af71d5ce988f373b5938c7068">More...</a><br /></td></tr>
+<tr class="separator:ad1e2954af71d5ce988f373b5938c7068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae06e5f9e84eaf600c79edcb4d4de4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a0ae06e5f9e84eaf600c79edcb4d4de4d">SendStrLiteral</a> (const char *str)</td></tr>
+<tr class="memdesc:a0ae06e5f9e84eaf600c79edcb4d4de4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a string literal through UART.  <a href="#a0ae06e5f9e84eaf600c79edcb4d4de4d">More...</a><br /></td></tr>
+<tr class="separator:a0ae06e5f9e84eaf600c79edcb4d4de4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae807fc1591f240b80a3a4ef5d4d70abf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ae807fc1591f240b80a3a4ef5d4d70abf">SendStr</a> (const std::string &amp;str)</td></tr>
+<tr class="separator:ae807fc1591f240b80a3a4ef5d4d70abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7fa81497650e59f11b38ae88311025d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#ac7fa81497650e59f11b38ae88311025d">SendBuffer</a> (const std::vector&lt; Byte &gt; &amp;buf)</td></tr>
+<tr class="separator:ac7fa81497650e59f11b38ae88311025d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e0c2877894c033620f08cbfb33752d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a58e0c2877894c033620f08cbfb33752d">PeekChar</a> (char *out_char)</td></tr>
 <tr class="separator:a58e0c2877894c033620f08cbfb33752d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a720e20f6963f6350710d42bb5f0cdb44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a720e20f6963f6350710d42bb5f0cdb44">SetLoopMode</a> (const bool flag)</td></tr>
@@ -165,12 +160,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a7d5b6fc65b369f3183183ebde147ab79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a421c174eba6d3ba11a8446c0e657f9b3"></a>
+<a class="anchor" id="a9a3bce846b5ff2ef6b5d980e9186af6c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::function&lt;void(const Byte *bytes, const size_t size)&gt; <a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a421c174eba6d3ba11a8446c0e657f9b3">libsc::k60::UartDevice::OnReceiveListener</a></td>
+          <td class="memname">typedef std::function&lt;bool(const std::vector&lt;Byte&gt;&amp;)&gt; <a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a9a3bce846b5ff2ef6b5d980e9186af6c">libsc::k60::UartDevice::OnReceiveListener</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -250,60 +245,6 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac9d678f0cb827e0d19fe93f0dae95e07"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::UartDevice::DisableRx </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af6bca58f445941422f84aac6d6b6c801"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::UartDevice::EnableRx </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classlibsc_1_1k60_1_1_uart_device.xhtml#a421c174eba6d3ba11a8446c0e657f9b3">OnReceiveListener</a> &amp;&#160;</td>
-          <td class="paramname"><em>listener</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4f0b9581ce0bd717ef19e747fbc0c408"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void libsc::k60::UartDevice::EnableRx </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a58e0c2877894c033620f08cbfb33752d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -320,12 +261,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af12f6e3f280b2f9991ec1cc53eb202ff"></a>
+<a class="anchor" id="a59ed758aed2c82f231fa7c47136e502c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendBuffer </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendBuffer </td>
           <td>(</td>
           <td class="paramtype">const Byte *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -353,15 +294,16 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a35a4dfb4f417f038c6dc1e531965ed91"></a>
+<a class="anchor" id="a5da6da229cf5945a381bba8a9930bda4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendBuffer </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendBuffer </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; Byte[]&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -389,15 +331,16 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ac30925b2b16131e3efeeefb8e91a0a50"></a>
+<a class="anchor" id="ad1e2954af71d5ce988f373b5938c7068"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendBuffer </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendBuffer </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; Byte &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>buf</em></td><td>)</td>
@@ -414,10 +357,11 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a44df34836824fd3ddc8b9983cd8d9bb2"></a>
+<a class="anchor" id="ac7fa81497650e59f11b38ae88311025d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -425,7 +369,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendBuffer </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendBuffer </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; Byte &gt; &amp;&#160;</td>
           <td class="paramname"><em>buf</em></td><td>)</td>
@@ -441,12 +385,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a14b582f24256cf6c5df62b6e64067771"></a>
+<a class="anchor" id="ad2660cb138329a8ce7c7e5ad61351f57"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendStr </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendStr </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -463,15 +407,16 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="aaff53e7340636e1d083c8bc7b20c16b2"></a>
+<a class="anchor" id="a03e77dff7666466a9a1075947578c5f6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendStr </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendStr </td>
           <td>(</td>
           <td class="paramtype">std::unique_ptr&lt; char[]&gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -488,15 +433,16 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="af5636a84d8a2fbdcb28861fb454bdc15"></a>
+<a class="anchor" id="ac8c6534cc888d6e56c3c0f8ae493dae5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendStr </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendStr </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;&amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -513,10 +459,11 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a4f939585f442f78ae4b2b3022d956406"></a>
+<a class="anchor" id="ae807fc1591f240b80a3a4ef5d4d70abf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -524,7 +471,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendStr </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendStr </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -540,12 +487,12 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa187c3456f789485acbd2b25917ab997"></a>
+<a class="anchor" id="a0ae06e5f9e84eaf600c79edcb4d4de4d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::UartDevice::SendStrLiteral </td>
+          <td class="memname">bool libsc::k60::UartDevice::SendStrLiteral </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -562,6 +509,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise (say, tx buffer is full) </dd></dl>
 
 </div>
 </div>
@@ -592,7 +540,7 @@ Protected Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

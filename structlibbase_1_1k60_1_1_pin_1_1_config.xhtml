@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -162,16 +162,21 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343a93b7e1a62595b0290d6992d4e361a78c"></a>kHighDriveStrength&#160;</td><td class="fielddoc">
+<p>Select between high/low drive strength, effective only with output pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343a7197fbb59a24a75aff0f1d3b653d9d05"></a>kOpenDrain&#160;</td><td class="fielddoc">
+<p>Effective only with input pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343ae16e9b0c40541dcc3f984cd005cc2b8f"></a>kPassiveFilter&#160;</td><td class="fielddoc">
-<p>Disable the passive input filter when high speed interfaces of more than 2 MHz are supported on the pin. </p>
+<p>Enable a low pass filter (10 MHz to 30 MHz bandwidth) on the pin. </p>
+<p>Disable when supporting high speed interfaces (&gt; 2MHz). Effective only with input pin </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343a97bee0faf3227b3a8f1aa1c34d9614fd"></a>kSlowSlewRate&#160;</td><td class="fielddoc">
+<p>Effective only with output pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343a41d4390af442ffaed03fc3461a6ab876"></a>kPullEnable&#160;</td><td class="fielddoc">
-<p>Enable the internal pull-up or pull-down resistor. </p>
+<p>Enable the internal pull-up or pull-down resistor, depending on ConfigBit::kPullUp. </p>
+<p>Effective only with input pin </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a72cb71ff38ac47eb22331b46e9358343a8599c8e262c6955581ba2d8d7c476d13"></a>kPullUp&#160;</td><td class="fielddoc">
 </td></tr>
@@ -311,7 +316,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

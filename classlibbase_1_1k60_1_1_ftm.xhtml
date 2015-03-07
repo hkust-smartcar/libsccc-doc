@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -87,7 +87,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a>  </div>
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">libbase::k60::Ftm Class Reference</div>  </div>
 </div><!--header-->
@@ -129,6 +131,21 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a8534327c0046b72f459ec46bc878380c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa1443479512a48afd33e58afbc6644f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#aa1443479512a48afd33e58afbc6644f9">RegFtm</a> (const <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a4c0a93a51eac7bdaa02c677dbcdce5ab">Ftm::Name</a> ftm, const bool is_exclusive_module)</td></tr>
+<tr class="separator:aa1443479512a48afd33e58afbc6644f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fe6c557a1997793b7c58661dd315caa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a8fe6c557a1997793b7c58661dd315caa">UnregFtm</a> (const <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a4c0a93a51eac7bdaa02c677dbcdce5ab">Ftm::Name</a> ftm)</td></tr>
+<tr class="memdesc:a8fe6c557a1997793b7c58661dd315caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregister a FTM channel and return whether the module is free or not.  <a href="#a8fe6c557a1997793b7c58661dd315caa">More...</a><br /></td></tr>
+<tr class="separator:a8fe6c557a1997793b7c58661dd315caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa3f6b8a1acb9432719bfd79196a8178d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml">Ftm</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#aa3f6b8a1acb9432719bfd79196a8178d">Get</a> ()</td></tr>
+<tr class="separator:aa3f6b8a1acb9432719bfd79196a8178d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38eb2116c020374a57fcb59fa40a3571"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a38eb2116c020374a57fcb59fa40a3571">GetMaxFtmChannelCount</a> ()</td></tr>
+<tr class="separator:a38eb2116c020374a57fcb59fa40a3571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a4c0a93a51eac7bdaa02c677dbcdce5ab"></a>
@@ -215,10 +232,108 @@ Public Types</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa3f6b8a1acb9432719bfd79196a8178d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml">Ftm</a>&amp; libbase::k60::Ftm::Get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a38eb2116c020374a57fcb59fa40a3571"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr int libbase::k60::Ftm::GetMaxFtmChannelCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1443479512a48afd33e58afbc6644f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbase::k60::Ftm::RegFtm </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a4c0a93a51eac7bdaa02c677dbcdce5ab">Ftm::Name</a>&#160;</td>
+          <td class="paramname"><em>ftm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>is_exclusive_module</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fe6c557a1997793b7c58661dd315caa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libbase::k60::Ftm::UnregFtm </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classlibbase_1_1k60_1_1_ftm.xhtml#a4c0a93a51eac7bdaa02c677dbcdce5ab">Ftm::Name</a>&#160;</td>
+          <td class="paramname"><em>ftm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unregister a FTM channel and return whether the module is free or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ftm</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

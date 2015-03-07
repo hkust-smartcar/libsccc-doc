@@ -1,0 +1,5 @@
+<map id="libsc::Servo" name="libsc::Servo">
+<area shape="rect" id="node2" href="$classlibsc_1_1_futaba_s3010.xhtml" title="Futaba S3010 RC servo. " alt="" coords="5,83,172,112"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1_tower_pro_mg995.xhtml" title="TowerPro MG995 RC servo. " alt="" coords="196,83,379,112"/>
+<area shape="rect" id="node4" href="$classlibsc_1_1_trs_d05.xhtml" title="TRS&#45;D05 RC servo. " alt="" coords="403,83,529,112"/>
+</map>

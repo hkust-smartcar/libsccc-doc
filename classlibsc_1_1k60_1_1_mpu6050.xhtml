@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">libsccc
-   &#160;<span id="projectnumber">gingerbread cupcake pre</span>
+   &#160;<span id="projectnumber">happy birthday cupcake pre</span>
    </div>
   </td>
  </tr>
@@ -105,14 +105,18 @@ Data Structures</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a28ccac3576535b995c40f2c136ec1ca0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a28ccac3576535b995c40f2c136ec1ca0">Mpu6050</a> (const <a class="el" href="structlibsc_1_1k60_1_1_mpu6050_1_1_config.xhtml">Config</a> &amp;config)</td></tr>
 <tr class="separator:a28ccac3576535b995c40f2c136ec1ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63e125c419523334aa5e14e88f6e7781"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a63e125c419523334aa5e14e88f6e7781">Update</a> ()</td></tr>
-<tr class="separator:a63e125c419523334aa5e14e88f6e7781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f45924261b51a08e65d099ec7098329"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a1f45924261b51a08e65d099ec7098329">Update</a> (const bool clamp_=true)</td></tr>
+<tr class="separator:a1f45924261b51a08e65d099ec7098329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a882d4454335d46e404ee623cd69f2c20"><td class="memItemLeft" align="right" valign="top">const std::array&lt; float, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a882d4454335d46e404ee623cd69f2c20">GetAccel</a> ()</td></tr>
 <tr class="separator:a882d4454335d46e404ee623cd69f2c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af841b93c58ef4a8f85b6ae8a3ba9bd4c"><td class="memItemLeft" align="right" valign="top">const std::array&lt; float, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#af841b93c58ef4a8f85b6ae8a3ba9bd4c">GetOmega</a> ()</td></tr>
 <tr class="separator:af841b93c58ef4a8f85b6ae8a3ba9bd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f58c17ad51ee6cf1a06064bc1fa90e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a06f58c17ad51ee6cf1a06064bc1fa90e">GetCelsius</a> ()</td></tr>
 <tr class="separator:a06f58c17ad51ee6cf1a06064bc1fa90e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e10217ba5b4eb5f420a3374ad13e9c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a6e10217ba5b4eb5f420a3374ad13e9c4">IsCalibrated</a> ()</td></tr>
+<tr class="separator:a6e10217ba5b4eb5f420a3374ad13e9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b66f3484492175672684a281d1a4a82"><td class="memItemLeft" align="right" valign="top">std::array&lt; float, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibsc_1_1k60_1_1_mpu6050.xhtml#a4b66f3484492175672684a281d1a4a82">GetOffset</a> ()</td></tr>
+<tr class="separator:a4b66f3484492175672684a281d1a4a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a28ccac3576535b995c40f2c136ec1ca0"></a>
@@ -186,6 +190,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4b66f3484492175672684a281d1a4a82"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;float, 3&gt;&amp; libsc::k60::Mpu6050::GetOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af841b93c58ef4a8f85b6ae8a3ba9bd4c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -209,14 +236,38 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a63e125c419523334aa5e14e88f6e7781"></a>
+<a class="anchor" id="a6e10217ba5b4eb5f420a3374ad13e9c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool libsc::k60::Mpu6050::IsCalibrated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1f45924261b51a08e65d099ec7098329"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void libsc::k60::Mpu6050::Update </td>
+          <td class="memname">bool libsc::k60::Mpu6050::Update </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>clamp_</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -227,7 +278,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 11 2015 06:20:42 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

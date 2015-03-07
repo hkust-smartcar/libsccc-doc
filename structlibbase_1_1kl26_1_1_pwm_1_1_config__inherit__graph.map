@@ -1,0 +1,4 @@
+<map id="libbase::kl26::Pwm::Config" name="libbase::kl26::Pwm::Config">
+<area shape="rect" id="node2" href="$structlibbase_1_1kl26_1_1_soft_pwm_1_1_config.xhtml" title="libbase::kl26::SoftPwm\l::Config" alt="" coords="5,100,204,147"/>
+<area shape="rect" id="node3" href="$structlibbase_1_1kl26_1_1_tpm_pwm_1_1_config.xhtml" title="libbase::kl26::TpmPwm\l::Config" alt="" coords="228,100,419,147"/>
+</map>

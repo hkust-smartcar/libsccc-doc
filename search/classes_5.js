@@ -6,5 +6,5 @@ var searchData=
   ['ftmpwm',['FtmPwm',['../classlibbase_1_1k60_1_1_ftm_pwm.xhtml',1,'libbase::k60']]],
   ['ftmquaddecoder',['FtmQuadDecoder',['../classlibbase_1_1k60_1_1_ftm_quad_decoder.xhtml',1,'libbase::k60']]],
   ['ftmutils',['FtmUtils',['../classlibbase_1_1k60_1_1_ftm_utils.xhtml',1,'libbase::k60']]],
-  ['futabas3010',['FutabaS3010',['../classlibsc_1_1k60_1_1_futaba_s3010.xhtml',1,'libsc::k60']]]
+  ['futabas3010',['FutabaS3010',['../classlibsc_1_1_futaba_s3010.xhtml',1,'libsc']]]
 ];
