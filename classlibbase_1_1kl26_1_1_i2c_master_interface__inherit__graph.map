@@ -1,0 +1,4 @@
+<map id="libbase::kl26::I2cMasterInterface" name="libbase::kl26::I2cMasterInterface">
+<area shape="rect" id="node2" href="$classlibbase_1_1kl26_1_1_i2c_master.xhtml" title="libbase::kl26::I2cMaster" alt="" coords="5,100,220,129"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1kl26_1_1_soft_i2c_master.xhtml" title="libbase::kl26::SoftI2cMaster" alt="" coords="244,100,491,129"/>
+</map>

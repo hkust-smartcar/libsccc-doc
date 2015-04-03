@@ -11,9 +11,9 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-26 147,-26 147,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<g id="a_node1"><a xlink:href="structlibsc_1_1_trs_d05_1_1_config.xhtml" target="_top" xlink:title="libsc::TrsD05::Config">
+<g id="a_node1"><a xlink:href="structlibsc_1_1_switch_1_1_config.xhtml" target="_top" xlink:title="libsc::Switch::Config">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-21.5 143,-21.5 143,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="71.5" y="-7.9" font-family="Inconsolata" font-size="12.00">libsc::TrsD05::Config</text>
+<text text-anchor="middle" x="71.5" y="-7.9" font-family="Inconsolata" font-size="12.00">libsc::Switch::Config</text>
 </a>
 </g>
 </g>

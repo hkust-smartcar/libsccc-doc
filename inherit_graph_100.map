@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbase_1_1kl26_1_1_tpm_utils.xhtml" title="libbase::kl26::TpmUtils" alt="" coords="5,5,212,35"/>
+<area shape="rect" id="node1" href="$classlibbase_1_1kl26_1_1_spi_master_interface.xhtml" title="libbase::kl26::SpiMaster\lInterface" alt="" coords="5,5,220,52"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1kl26_1_1_soft_spi_master.xhtml" title="libbase::kl26::SoftSpiMaster" alt="" coords="268,14,515,43"/>
 </map>

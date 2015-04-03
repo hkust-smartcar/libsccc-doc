@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['region',['region',['../structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml#a2dae23eebccc6f937533094f5a4a0dd9',1,'libsc::k60::LcdConsole::Config']]],
+  ['region',['region',['../structlibsc_1_1_lcd_console_1_1_config.xhtml#aeedc4aa586a54b26a462cf94485c689b',1,'libsc::LcdConsole::Config']]],
   ['resolution',['resolution',['../structlibbase_1_1k60_1_1_adc_1_1_config.xhtml#a61eb2eb3be88eb6adb2fec9b34abfcf4',1,'libbase::k60::Adc::Config::resolution()'],['../structlibbase_1_1kl26_1_1_adc_1_1_config.xhtml#a70b6a45473db74b43904bac16fc0c49c',1,'libbase::kl26::Adc::Config::resolution()']]],
   ['rounding_5fmode',['rounding_mode',['../structlibbase_1_1k60_1_1_fpu_1_1_config.xhtml#ae610f9c1e34cb2d90d81726cabc98980',1,'libbase::k60::Fpu::Config']]],
   ['rx_5fconfig',['rx_config',['../structlibbase_1_1k60_1_1_uart_1_1_config.xhtml#a810d66ae547f397266a0627cfcc44ded',1,'libbase::k60::Uart::Config::rx_config()'],['../structlibbase_1_1kl26_1_1_uart_1_1_config.xhtml#a47eb4b15fcc51cf778fdf77a7145c6d7',1,'libbase::kl26::Uart::Config::rx_config()']]],

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibutil_1_1_kalman_filter.xhtml" title="libutil::KalmanFilter" alt="" coords="5,5,196,35"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1_timer.xhtml" title="libsc::Timer" alt="" coords="5,59,124,88"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1kl26_1_1_lptmr_timer.xhtml" title="libsc::kl26::LptmrTimer" alt="" coords="172,5,379,35"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1_pit_timer.xhtml" title="libsc::PitTimer" alt="" coords="204,59,347,88"/>
+<area shape="rect" id="node4" href="$classlibsc_1_1_sys_tick_timer.xhtml" title="libsc::SysTickTimer" alt="" coords="188,112,363,141"/>
 </map>

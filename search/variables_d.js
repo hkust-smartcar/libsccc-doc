@@ -6,7 +6,7 @@ var searchData=
   ['pit_5fchannel',['pit_channel',['../structlibbase_1_1k60_1_1_soft_pwm_1_1_config.xhtml#a24b2e7c62b093cab92c0f113114fe626',1,'libbase::k60::SoftPwm::Config::pit_channel()'],['../structlibbase_1_1kl26_1_1_soft_pwm_1_1_config.xhtml#aa4f18e204e639243b5e886e0a69d5a2a',1,'libbase::kl26::SoftPwm::Config::pit_channel()']]],
   ['polynomial',['polynomial',['../structlibbase_1_1k60_1_1_crc_1_1_config.xhtml#a6e596dfa2635073363176a2c5d1a2d4d',1,'libbase::k60::Crc::Config']]],
   ['pos_5fwidth',['pos_width',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#ab04fb2752b86c55aa1711d24c5d95f58',1,'libbase::k60::Pwm::Config::pos_width()'],['../structlibbase_1_1kl26_1_1_pwm_1_1_config.xhtml#ad389b443a4546b47a2f90fc9d5e78f8f',1,'libbase::kl26::Pwm::Config::pos_width()']]],
-  ['power_5fmode',['power_mode',['../structlibsc_1_1k60_1_1_mma8451q_1_1_config.xhtml#a1e5f40c22a37e2c0ef572a1922968696',1,'libsc::k60::Mma8451q::Config']]],
+  ['power_5fmode',['power_mode',['../structlibsc_1_1_mma8451q_1_1_config.xhtml#aa2703eb3d1f9b9bef705d1fc2f78863a',1,'libsc::Mma8451q::Config']]],
   ['precision',['precision',['../structlibbase_1_1k60_1_1_pwm_1_1_config.xhtml#a97ab70cdd6d7198d58f8a9aa23693a98',1,'libbase::k60::Pwm::Config::precision()'],['../structlibbase_1_1kl26_1_1_pwm_1_1_config.xhtml#a7d84dac3452f4496739a71ff9b7103ad',1,'libbase::kl26::Pwm::Config::precision()']]],
   ['priority',['priority',['../structlibbase_1_1k60_1_1_dma_manager_1_1_config_1_1_channel_priority_config.xhtml#a8f1480ec269d1eb39e3a26ff372d63a9',1,'libbase::k60::DmaManager::Config::ChannelPriorityConfig']]]
 ];

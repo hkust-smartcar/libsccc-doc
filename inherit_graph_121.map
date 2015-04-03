@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibsc_1_1k60_1_1_ds18b20.xhtml" title="libsc::k60::Ds18b20" alt="" coords="5,5,180,35"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1_encoder.xhtml" title="libsc::Encoder" alt="" coords="5,32,140,61"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1_ab_encoder.xhtml" title="Phase A/B encoder. " alt="" coords="192,5,343,35"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1_dir_encoder.xhtml" title="libsc::DirEncoder" alt="" coords="188,59,347,88"/>
 </map>

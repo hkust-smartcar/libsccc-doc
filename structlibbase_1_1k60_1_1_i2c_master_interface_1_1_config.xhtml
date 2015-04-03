@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for libbase::k60::I2cMasterInterface::Config:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config__inherit__graph.svg" width="290" height="152"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config__inherit__graph.svg" width="480" height="152"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -107,6 +107,9 @@ Data Fields</h2></td></tr>
 <tr class="separator:a4eb7e3c07213a9f0c133bbd908964def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0cbbfe7e332cb19b5f4f91cca6f41d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classlibbase_1_1k60_1_1_pin.xhtml#a3d7cd925723fa2367a333e40b3c51a39">Pin::Name</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#af0cbbfe7e332cb19b5f4f91cca6f41d6">sda_pin</a></td></tr>
 <tr class="separator:af0cbbfe7e332cb19b5f4f91cca6f41d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5c59c0687ad8cc7ca0a931d2dd607f"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#aec5c59c0687ad8cc7ca0a931d2dd607f">baud_rate_khz</a> = 100</td></tr>
+<tr class="memdesc:aec5c59c0687ad8cc7ca0a931d2dd607f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the baud rate.  <a href="#aec5c59c0687ad8cc7ca0a931d2dd607f">More...</a><br /></td></tr>
+<tr class="separator:aec5c59c0687ad8cc7ca0a931d2dd607f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7f178f0786b8ebebf4d2e40cc7e458"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#aff7f178f0786b8ebebf4d2e40cc7e458">scl_low_timeout</a> = UINT16_MAX</td></tr>
 <tr class="separator:aff7f178f0786b8ebebf4d2e40cc7e458"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1757a74c594efd7b843ba354df7a61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml#a2d1757a74c594efd7b843ba354df7a61">is_use_repeated_start</a> = true</td></tr>
@@ -114,6 +117,22 @@ Data Fields</h2></td></tr>
 <tr class="separator:a2d1757a74c594efd7b843ba354df7a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="aec5c59c0687ad8cc7ca0a931d2dd607f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t libbase::k60::I2cMasterInterface::Config::baud_rate_khz = 100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the baud rate. </p>
+<p>The standard i2c frequency is 100kHz, many later devices can go up to 400kHz</p>
+<dl class="section note"><dt>Note</dt><dd>The device may not operate correctly if the value is too high </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a2d1757a74c594efd7b843ba354df7a61"></a>
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +187,7 @@ Data Fields</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 3 2015 10:44:46 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

@@ -132,21 +132,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manage the main loop of a program, and invoke registered functions at the time specified. </p>
-<p>Example: </p><div class="fragment"><div class="line">    Led leds[] = {Led({0, <span class="keyword">true</span>}), Led({1, <span class="keyword">true</span>}), Led({2, <span class="keyword">true</span>}), Led({3, <span class="keyword">true</span>})};</div>
-<div class="line">    <span class="keywordtype">int</span> led_id = 0;</div>
-<div class="line">    std::function&lt;void(const Timer::TimerInt, const Timer::TimerInt)&gt; blink =</div>
-<div class="line">            [&amp;](<span class="keyword">const</span> Timer::TimerInt request, <span class="keyword">const</span> Timer::TimerInt)</div>
-<div class="line">            {</div>
-<div class="line">                leds[led_id].Switch();</div>
-<div class="line">                <span class="keywordflow">if</span> (++led_id &gt;= 4)</div>
-<div class="line">                {</div>
-<div class="line">                    led_id = 0;</div>
-<div class="line">                }</div>
-<div class="line"></div>
-<div class="line">                looper.RunAfter(request, blink);</div>
-<div class="line">            };</div>
-<div class="line">    looper.RunAfter(250, blink);</div>
-</div><!-- fragment --></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<p>Example: </p><div class="fragment"></div><!-- fragment --></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a2b28e3aabe38faf2d16364138ca7610a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -314,7 +300,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 3 2015 10:44:47 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

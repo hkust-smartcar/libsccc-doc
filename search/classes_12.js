@@ -7,5 +7,6 @@ var searchData=
   ['tpmpwm',['TpmPwm',['../classlibbase_1_1kl26_1_1_tpm_pwm.xhtml',1,'libbase::kl26']]],
   ['tpmquaddecoder',['TpmQuadDecoder',['../classlibbase_1_1kl26_1_1_tpm_quad_decoder.xhtml',1,'libbase::kl26']]],
   ['tpmutils',['TpmUtils',['../classlibbase_1_1kl26_1_1_tpm_utils.xhtml',1,'libbase::kl26']]],
-  ['trsd05',['TrsD05',['../classlibsc_1_1_trs_d05.xhtml',1,'libsc']]]
+  ['trsd05',['TrsD05',['../classlibsc_1_1_trs_d05.xhtml',1,'libsc']]],
+  ['tsl1401cl',['Tsl1401cl',['../classlibsc_1_1_tsl1401cl.xhtml',1,'libsc']]]
 ];

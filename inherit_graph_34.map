@@ -1,4 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibbase_1_1k60_1_1_i2c_master_interface_1_1_config.xhtml" title="libbase::k60::I2cMasterInterface\l::Config" alt="" coords="5,5,284,52"/>
-<area shape="rect" id="node2" href="$structlibbase_1_1k60_1_1_soft_i2c_master_1_1_config.xhtml" title="libbase::k60::SoftI2cMaster\l::Config" alt="" coords="332,5,571,52"/>
+<area shape="rect" id="node1" href="$classlibbase_1_1k60_1_1_i2c_master_interface.xhtml" title="libbase::k60::I2cMasterInterface" alt="" coords="5,32,284,61"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1k60_1_1_i2c_master.xhtml" title="libbase::k60::I2cMaster" alt="" coords="348,5,555,35"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1k60_1_1_soft_i2c_master.xhtml" title="libbase::k60::SoftI2cMaster" alt="" coords="332,59,571,88"/>
 </map>

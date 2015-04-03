@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spimaster',['SpiMaster',['../classlibsc_1_1k60_1_1_st7735r.xhtml#aaf64adf1dcd5c0ce11cd9db8e3a9722a',1,'libsc::k60::St7735r']]]
+  ['timerint',['TimerInt',['../classlibsc_1_1_timer.xhtml#a7557f27c9a62a82a8a4dbc84582c7889',1,'libsc::Timer']]]
 ];

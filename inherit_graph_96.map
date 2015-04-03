@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibbase_1_1kl26_1_1_sys_tick_1_1_config.xhtml" title="libbase::kl26::SysTick\l::Config" alt="" coords="5,5,204,52"/>
+<area shape="rect" id="node1" href="$classlibbase_1_1kl26_1_1_quad_decoder_interface.xhtml" title="Generic quadrature decoder interface. " alt="" coords="5,23,236,70"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1kl26_1_1_soft_quad_decoder.xhtml" title="Software emulated quadrature decoding using pin interrupt and GPIO. " alt="" coords="284,5,547,35"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1kl26_1_1_tpm_quad_decoder.xhtml" title="libbase::kl26::TpmQuadDecoder" alt="" coords="288,59,543,88"/>
 </map>

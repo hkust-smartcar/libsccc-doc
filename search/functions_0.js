@@ -5,7 +5,6 @@ var searchData=
   ['addpower',['AddPower',['../classlibsc_1_1_motor.xhtml#a854be6ab7e23fbbd82d41d83982da571',1,'libsc::Motor']]],
   ['advancedata',['AdvanceData',['../classlibbase_1_1k60_1_1_dac.xhtml#a2ebfb6c1e160a73f11beb49bbb1f0879',1,'libbase::k60::Dac']]],
   ['alternatemotor',['AlternateMotor',['../classlibsc_1_1_alternate_motor.xhtml#a09131910ebf283fae75814377ec2f7be',1,'libsc::AlternateMotor']]],
-  ['ambientlightsensor',['AmbientLightSensor',['../classlibsc_1_1k60_1_1_ambient_light_sensor.xhtml#aac13fc0ce3ca58d341f067164efee664',1,'libsc::k60::AmbientLightSensor']]],
   ['arcsin',['ArcSin',['../classlibutil_1_1_math.xhtml#ae959cb7a42eecb2c7ba81540458f7524',1,'libutil::Math']]],
   ['arctan',['ArcTan',['../classlibutil_1_1_math.xhtml#a6e7d9370ba14c9faa763362e99b319e2',1,'libutil::Math']]]
 ];

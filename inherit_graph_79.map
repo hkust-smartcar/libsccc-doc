@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibbase_1_1kl26_1_1_mcg.xhtml" title="libbase::kl26::Mcg" alt="" coords="5,5,172,35"/>
+<area shape="rect" id="node1" href="$classlibbase_1_1kl26_1_1_i2c_master_interface.xhtml" title="libbase::kl26::I2cMaster\lInterface" alt="" coords="5,23,220,70"/>
+<area shape="rect" id="node2" href="$classlibbase_1_1kl26_1_1_i2c_master.xhtml" title="libbase::kl26::I2cMaster" alt="" coords="284,5,499,35"/>
+<area shape="rect" id="node3" href="$classlibbase_1_1kl26_1_1_soft_i2c_master.xhtml" title="libbase::kl26::SoftI2cMaster" alt="" coords="268,59,515,88"/>
 </map>

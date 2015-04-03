@@ -1,5 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlibbase_1_1k60_1_1_quad_decoder_interface_1_1_config.xhtml" title="libbase::k60::QuadDecoder\lInterface::Config" alt="" coords="5,41,228,88"/>
-<area shape="rect" id="node2" href="$structlibbase_1_1k60_1_1_ftm_quad_decoder_1_1_config.xhtml" title="libbase::k60::FtmQuadDecoder\l::Config" alt="" coords="280,5,527,52"/>
-<area shape="rect" id="node3" href="$structlibbase_1_1k60_1_1_soft_quad_decoder_1_1_config.xhtml" title="libbase::k60::SoftQuadDecoder\l::Config" alt="" coords="276,76,531,123"/>
+<area shape="rect" id="node1" href="$classlibbase_1_1k60_1_1_pwm_utils.xhtml" title="libbase::k60::PwmUtils" alt="" coords="5,5,204,35"/>
 </map>

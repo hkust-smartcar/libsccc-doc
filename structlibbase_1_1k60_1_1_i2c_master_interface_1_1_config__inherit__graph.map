@@ -1,3 +1,4 @@
 <map id="libbase::k60::I2cMasterInterface::Config" name="libbase::k60::I2cMasterInterface::Config">
-<area shape="rect" id="node2" href="$structlibbase_1_1k60_1_1_soft_i2c_master_1_1_config.xhtml" title="libbase::k60::SoftI2cMaster\l::Config" alt="" coords="25,100,264,147"/>
+<area shape="rect" id="node2" href="$structlibbase_1_1k60_1_1_i2c_master_1_1_config.xhtml" title="libbase::k60::I2cMaster\l::Config" alt="" coords="5,100,212,147"/>
+<area shape="rect" id="node3" href="$structlibbase_1_1k60_1_1_soft_i2c_master_1_1_config.xhtml" title="libbase::k60::SoftI2cMaster\l::Config" alt="" coords="236,100,475,147"/>
 </map>

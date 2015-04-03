@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="dynheader">
 Inheritance diagram for libbase::k60::I2cMasterInterface:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classlibbase_1_1k60_1_1_i2c_master_interface__inherit__graph.svg" width="290" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classlibbase_1_1k60_1_1_i2c_master_interface__inherit__graph.svg" width="480" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -114,12 +114,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a96f91a60f1d866e61d7878d18fdee212"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_i2c_master_interface.xhtml#a96f91a60f1d866e61d7878d18fdee212">operator bool</a> () const =0</td></tr>
 <tr class="separator:a96f91a60f1d866e61d7878d18fdee212"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add7459f94cf1d5a4dbe0c115e804fd90"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_i2c_master_interface.xhtml#add7459f94cf1d5a4dbe0c115e804fd90">GetByte</a> (const Byte slave_addr, const Byte reg_addr, Byte *out_byte)=0</td></tr>
+<tr class="memdesc:add7459f94cf1d5a4dbe0c115e804fd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive a single byte from a slave device.  <a href="#add7459f94cf1d5a4dbe0c115e804fd90">More...</a><br /></td></tr>
 <tr class="separator:add7459f94cf1d5a4dbe0c115e804fd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc63bc44c9ccd36cc8a0d5d9a9e6482b"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; Byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_i2c_master_interface.xhtml#afc63bc44c9ccd36cc8a0d5d9a9e6482b">GetBytes</a> (const Byte slave_addr, const Byte reg_addr, const uint8_t size)=0</td></tr>
+<tr class="memdesc:afc63bc44c9ccd36cc8a0d5d9a9e6482b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive multiple bytes from a slave device.  <a href="#afc63bc44c9ccd36cc8a0d5d9a9e6482b">More...</a><br /></td></tr>
 <tr class="separator:afc63bc44c9ccd36cc8a0d5d9a9e6482b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1dedb81f25b8eb4c1daa0ed9195f955"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_i2c_master_interface.xhtml#ac1dedb81f25b8eb4c1daa0ed9195f955">SendByte</a> (const Byte slave_addr, const Byte reg_addr, const Byte byte)=0</td></tr>
+<tr class="memdesc:ac1dedb81f25b8eb4c1daa0ed9195f955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a single byte to a slave device.  <a href="#ac1dedb81f25b8eb4c1daa0ed9195f955">More...</a><br /></td></tr>
 <tr class="separator:ac1dedb81f25b8eb4c1daa0ed9195f955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acafea75f305837fa614c0dd058b72422"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibbase_1_1k60_1_1_i2c_master_interface.xhtml#acafea75f305837fa614c0dd058b72422">SendBytes</a> (const Byte slave_addr, const Byte reg_addr, const Byte *bytes, const size_t size)=0</td></tr>
+<tr class="memdesc:acafea75f305837fa614c0dd058b72422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send multiple bytes to a slave device.  <a href="#acafea75f305837fa614c0dd058b72422">More...</a><br /></td></tr>
 <tr class="separator:acafea75f305837fa614c0dd058b72422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -185,7 +189,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a9ecdc1683334083a2c616d0af7910e5f">libbase::k60::SoftI2cMaster</a>.</p>
+<p>Receive a single byte from a slave device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slave_addr</td><td>7-bit address of the slave device </td></tr>
+    <tr><td class="paramname">reg_addr</td><td>Address of the interesting register </td></tr>
+    <tr><td class="paramname">out_byte</td><td>The received byte, no change if false is returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_i2c_master.xhtml#aa9a65864194d782305921aeaeecb7251">libbase::k60::I2cMaster</a>, and <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a9ecdc1683334083a2c616d0af7910e5f">libbase::k60::SoftI2cMaster</a>.</p>
 
 </div>
 </div>
@@ -227,7 +242,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#aaba01c3bc98ce8733b7d2296445626dc">libbase::k60::SoftI2cMaster</a>.</p>
+<p>Receive multiple bytes from a slave device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slave_addr</td><td>7-bit address of the slave device </td></tr>
+    <tr><td class="paramname">reg_addr</td><td>Address of the first interesting register </td></tr>
+    <tr><td class="paramname">size</td><td>Number of register reads </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Received data, if the size of the returned data is &lt; than <em>size</em>, an error has occurred </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_i2c_master.xhtml#a9d198ec4d2c0c1146810a7ccebe77fd3">libbase::k60::I2cMaster</a>, and <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#aaba01c3bc98ce8733b7d2296445626dc">libbase::k60::SoftI2cMaster</a>.</p>
 
 </div>
 </div>
@@ -252,7 +278,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a98122075b2e0a10b27ad03a4c96b79de">libbase::k60::SoftI2cMaster</a>.</p>
+<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_i2c_master.xhtml#a02b2989acc0a5dfc8168944565d3ade4">libbase::k60::I2cMaster</a>, and <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a98122075b2e0a10b27ad03a4c96b79de">libbase::k60::SoftI2cMaster</a>.</p>
 
 </div>
 </div>
@@ -294,7 +320,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a86737e2e0fdda3decfa8cf05d7bed6ec">libbase::k60::SoftI2cMaster</a>.</p>
+<p>Send a single byte to a slave device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slave_addr</td><td>7-bit address of the slave device </td></tr>
+    <tr><td class="paramname">reg_addr</td><td>Address of the interesting register </td></tr>
+    <tr><td class="paramname">byte</td><td>The byte to send </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_i2c_master.xhtml#ac4daad7797673880404bfe9223a53d54">libbase::k60::I2cMaster</a>, and <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#a86737e2e0fdda3decfa8cf05d7bed6ec">libbase::k60::SoftI2cMaster</a>.</p>
 
 </div>
 </div>
@@ -342,14 +379,26 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#aba40b6e1e115b1e4b64a29b75a4cf2bd">libbase::k60::SoftI2cMaster</a>.</p>
+<p>Send multiple bytes to a slave device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slave_addr</td><td>7-bit address of the slave device </td></tr>
+    <tr><td class="paramname">reg_addr</td><td>Address of the first interesting register </td></tr>
+    <tr><td class="paramname">bytes</td><td>Data to send </td></tr>
+    <tr><td class="paramname">size</td><td>Size of the <em>bytes</em> array </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successful, false otherwise </dd></dl>
+
+<p>Implemented in <a class="el" href="classlibbase_1_1k60_1_1_i2c_master.xhtml#a423890e601049cb612a080e4be688a67">libbase::k60::I2cMaster</a>, and <a class="el" href="classlibbase_1_1k60_1_1_soft_i2c_master.xhtml#aba40b6e1e115b1e4b64a29b75a4cf2bd">libbase::k60::SoftI2cMaster</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 3 2015 10:44:46 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

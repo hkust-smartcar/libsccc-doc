@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['time',['Time',['../classlibsc_1_1k60_1_1_system.xhtml#a39e3e050f5d9e57defb451467ab48f10',1,'libsc::k60::System::Time()'],['../classlibsc_1_1kl26_1_1_lptmr_timer.xhtml#a68e88caf423cebbf2ff38da96d794b3f',1,'libsc::kl26::LptmrTimer::Time()'],['../classlibsc_1_1kl26_1_1_system.xhtml#af1af3229e030464dec509b5384814684',1,'libsc::kl26::System::Time()'],['../classlibsc_1_1_pit_timer.xhtml#aedae674e8b9811454d4fedc5341db846',1,'libsc::PitTimer::Time()'],['../classlibsc_1_1_sys_tick_timer.xhtml#a5375860f89449fb40cbaaef8eaff6430',1,'libsc::SysTickTimer::Time()'],['../classlibsc_1_1_timer.xhtml#a3351b63486d40f5306e604c65dcf32e7',1,'libsc::Timer::Time()']]],
+  ['time',['Time',['../classlibsc_1_1kl26_1_1_lptmr_timer.xhtml#a68e88caf423cebbf2ff38da96d794b3f',1,'libsc::kl26::LptmrTimer::Time()'],['../classlibsc_1_1_pit_timer.xhtml#aedae674e8b9811454d4fedc5341db846',1,'libsc::PitTimer::Time()'],['../classlibsc_1_1_sys_tick_timer.xhtml#a5375860f89449fb40cbaaef8eaff6430',1,'libsc::SysTickTimer::Time()'],['../classlibsc_1_1_system.xhtml#ac968e8cc7275d04095083f25d5e4ff5d',1,'libsc::System::Time()'],['../classlibsc_1_1_timer.xhtml#a3351b63486d40f5306e604c65dcf32e7',1,'libsc::Timer::Time()']]],
   ['timediff',['TimeDiff',['../classlibsc_1_1_timer.xhtml#a832bfe98ae4614769347df3f0734eb76',1,'libsc::Timer']]],
   ['togpi',['ToGpi',['../classlibbase_1_1k60_1_1_gpo.xhtml#a05ad094021b740859b9107809f06f90c',1,'libbase::k60::Gpo::ToGpi()'],['../classlibbase_1_1kl26_1_1_gpo.xhtml#a0bb6b91d36b912feec4ff1456cbb7998',1,'libbase::kl26::Gpo::ToGpi()']]],
   ['togpo',['ToGpo',['../classlibbase_1_1k60_1_1_gpi.xhtml#a4d670e2f7db56b0c5008ab052ad7ec44',1,'libbase::k60::Gpi::ToGpo()'],['../classlibbase_1_1kl26_1_1_gpi.xhtml#a759bb9253f95873ce3faacc4a46bab0b',1,'libbase::kl26::Gpi::ToGpo()']]],
@@ -12,5 +12,6 @@ var searchData=
   ['translate16',['Translate16',['../classlibutil_1_1_endian_utils.xhtml#a3bd34ff1cd0a7fcd0320407d9d40679f',1,'libutil::EndianUtils']]],
   ['translate32',['Translate32',['../classlibutil_1_1_endian_utils.xhtml#a9cda7c24af217670350131ea7a63b82c',1,'libutil::EndianUtils']]],
   ['trsd05',['TrsD05',['../classlibsc_1_1_trs_d05.xhtml#ad03d0ec505d5073613d8a5520d39a2b4',1,'libsc::TrsD05']]],
+  ['tsl1401cl',['Tsl1401cl',['../classlibsc_1_1_tsl1401cl.xhtml#a3b5ce88fe83e90cb25fd2155b007df2a',1,'libsc::Tsl1401cl']]],
   ['turn',['Turn',['../classlibbase_1_1k60_1_1_gpo.xhtml#a889933b3923536da963c6cb04ca38160',1,'libbase::k60::Gpo::Turn()'],['../classlibbase_1_1k60_1_1_gpio.xhtml#a1e1409baf646d02b4ce4ce423e8cde39',1,'libbase::k60::Gpio::Turn()'],['../classlibbase_1_1kl26_1_1_gpo.xhtml#af9aaf80d79286754f763743eaa536164',1,'libbase::kl26::Gpo::Turn()'],['../classlibbase_1_1kl26_1_1_gpio.xhtml#aee4053ac8aeec9ad01539a9a15be1350',1,'libbase::kl26::Gpio::Turn()']]]
 ];

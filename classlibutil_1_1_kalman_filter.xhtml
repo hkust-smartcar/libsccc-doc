@@ -87,7 +87,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">libutil::KalmanFilter Class Reference</div>  </div>
 </div><!--header-->
@@ -109,6 +110,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ada0bcade82d911f26f6b3e65bb207481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e8ec6909a8ffcf6559440fbd6fb414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#a83e8ec6909a8ffcf6559440fbd6fb414">SetP</a> (const float lpP)</td></tr>
 <tr class="separator:a83e8ec6909a8ffcf6559440fbd6fb414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aad32bf92f05d2857b4521542a486707d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#aad32bf92f05d2857b4521542a486707d">m_q</a></td></tr>
+<tr class="separator:aad32bf92f05d2857b4521542a486707d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50f86079fdfc1839589453c1c5c5e1a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#aa50f86079fdfc1839589453c1c5c5e1a">m_r</a></td></tr>
+<tr class="separator:aa50f86079fdfc1839589453c1c5c5e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d580b70a84eb18828aefaab1d0f222"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#a43d580b70a84eb18828aefaab1d0f222">m_k</a></td></tr>
+<tr class="separator:a43d580b70a84eb18828aefaab1d0f222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f7c6e947f3acfdd5c999f972a97e9b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#a52f7c6e947f3acfdd5c999f972a97e9b">m_x</a></td></tr>
+<tr class="separator:a52f7c6e947f3acfdd5c999f972a97e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa562e681ed768582af420fbec53a2899"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#aa562e681ed768582af420fbec53a2899">m_lx</a></td></tr>
+<tr class="separator:aa562e681ed768582af420fbec53a2899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc9a6eaa6f24c3d9813fb271a9c73de"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#a2cc9a6eaa6f24c3d9813fb271a9c73de">m_p</a></td></tr>
+<tr class="separator:a2cc9a6eaa6f24c3d9813fb271a9c73de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c7512c4e8cf4f4ff2df10798904aae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibutil_1_1_kalman_filter.xhtml#ab9c7512c4e8cf4f4ff2df10798904aae">m_lp</a></td></tr>
+<tr class="separator:ab9c7512c4e8cf4f4ff2df10798904aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a469d38250e66685cf26ca2b12ab533f5"></a>
@@ -230,10 +248,151 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a43d580b70a84eb18828aefaab1d0f222"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_k</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9c7512c4e8cf4f4ff2df10798904aae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_lp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa562e681ed768582af420fbec53a2899"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_lx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2cc9a6eaa6f24c3d9813fb271a9c73de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_p</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad32bf92f05d2857b4521542a486707d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_q</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa50f86079fdfc1839589453c1c5c5e1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_r</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a52f7c6e947f3acfdd5c999f972a97e9b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float libutil::KalmanFilter::m_x</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 7 2015 21:10:48 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Apr 3 2015 10:44:47 for libsccc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

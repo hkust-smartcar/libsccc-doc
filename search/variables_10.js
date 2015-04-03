@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['text_5fcolor',['text_color',['../structlibsc_1_1k60_1_1_lcd_console_1_1_config.xhtml#ae410dc2a4554bccea34412a35e76965c',1,'libsc::k60::LcdConsole::Config::text_color()'],['../structlibsc_1_1k60_1_1_lcd_typewriter_1_1_config.xhtml#aa4905292374df9f1cfef74921ec47fdd',1,'libsc::k60::LcdTypewriter::Config::text_color()']]],
+  ['text_5fcolor',['text_color',['../structlibsc_1_1_lcd_console_1_1_config.xhtml#afe462a94faa9f540659457edc8d2c9e4',1,'libsc::LcdConsole::Config::text_color()'],['../structlibsc_1_1_lcd_typewriter_1_1_config.xhtml#ab148af41245fc8e61670f9a35a65daf5',1,'libsc::LcdTypewriter::Config::text_color()']]],
   ['time_5fout_5fms',['time_out_ms',['../structlibbase_1_1k60_1_1_watchdog_1_1_config.xhtml#a364d6fa1cf3275e1e781e51db142cb7b',1,'libbase::k60::Watchdog::Config']]],
   ['timeout',['timeout',['../structlibbase_1_1kl26_1_1_watchdog_1_1_config.xhtml#a91c6c4a7fb07fdac7e487e353cb8a73f',1,'libbase::kl26::Watchdog::Config']]],
   ['tpm_5fmodule',['tpm_module',['../structlibbase_1_1kl26_1_1_tpm_quad_decoder_1_1_config.xhtml#a01e236b1dbf875def4374603f76bf75e',1,'libbase::kl26::TpmQuadDecoder::Config']]],

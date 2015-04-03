@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classlibsc_1_1k60_1_1_ov7725.xhtml" title="libsc::k60::Ov7725" alt="" coords="5,5,172,35"/>
+<area shape="rect" id="node1" href="$classlibsc_1_1kl26_1_1_uart_device.xhtml" title="libsc::kl26::UartDevice" alt="" coords="5,32,212,61"/>
+<area shape="rect" id="node2" href="$classlibsc_1_1kl26_1_1_ftdi_ft232r.xhtml" title="libsc::kl26::FtdiFt232r" alt="" coords="260,5,467,35"/>
+<area shape="rect" id="node3" href="$classlibsc_1_1kl26_1_1_jy_mcu_bt106.xhtml" title="libsc::kl26::JyMcuBt106" alt="" coords="260,59,467,88"/>
 </map>
